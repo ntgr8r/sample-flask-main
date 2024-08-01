@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Map</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+	<div id="map" style="height: 100vh;"></div>
+	<script>
+		var map = L.map('map').setView([51.505, -0.09], 13);
+
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+		fetch('/States_Data')
+			.then(response => response.json())
+			.then(data => {
+				data.forEach(item => {
+					L.marker([item.latitude, item.longitude]).addTo(map)
+						.bindPopup(item.agency);
+				});
+			});
+
+		map.on('moveend', function() {
+			// Update data based on new map bounds
+			var bounds = map.getBounds();
+			// Fetch and update data based on bounds
+		});
+	</script>
+</body>
+</html>
