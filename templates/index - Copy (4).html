@@ -1,0 +1,24 @@
+<!-- index.html splash page -->
+<!DOCTYPE html>
+<html lang="en">
+    {% include 'head.html' %}
+<body>
+    <!-- Include the menu.html file -->
+    {% include 'menu.html' %}
+
+    <div class="content">
+        <img src="static/nysp_logo.jpg" alt="NY State Police" class="logo">
+        <h1>Are You Safe ... When You're Out</h1>
+        <img src="static/umpy_logo.jpg" alt="Umpy Safe Logo" class="logo">
+    </div>            
+
+    <button onclick="redirectToMain()">Go to Main Page</button>
+
+    <script>
+        function redirectToMain() {
+            window.location.href = "/templates/main.html";
+        }
+    </script>
+
+</body>
+</html>

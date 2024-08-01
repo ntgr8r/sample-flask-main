@@ -1,12 +1,4 @@
 /* static/styles.css */
-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px; /* Adjust width as needed */
-    background-color: #f8f9fa; /* Optional: background color */
-}
-
 body {
     display: flex;
     justify-content: center;

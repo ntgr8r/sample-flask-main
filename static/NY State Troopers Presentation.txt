@@ -1,0 +1,42 @@
+NY State Troopers Presentation
+
+Data Source - violent crime:
+Main -> https://api.usa.gov/crime/fbi/cde/arrest/agency/NY0100100/violent_crime?from=2019&to=2020&api_key=Byl4tajue8vNh0GeDFydtiIe0ZSKrabzb1hXFtEd
+
+=====SCREEN - SPLASH====================================
+
+=====SCREEN - APD Data==================================
+That Agency Name , latitude , longitude used to plot markers on map, with infowindows showing the Agency Name and the number of offenses for that agency.
+
+=====3 Main Crimes====================================
+file:///C:/Users/darry/OneDrive/Documents/GitHub/dugout/dugout_main/FBI%20NIBRS%20data/2022%20state%20(Offense_Type_by_Agency)%20Tables/new_york_crime_map_3_main_crime_categories_.html
+
+=====SCREEN - NY Agencies====================================
+
+=====SCREEN - NY ZIP Codes====================================
+WIP
+
+
+=====Process=============================================
+- Saved to New_York_Offense_Type_by_Agency_2022.xlsx
+- Agency Name taken from XLSX
+- Ran get_lat_long_for_agency_name.py 
+- lat long taken from agency_name that contained Agency Name in agencies.csv
+
+- data written to NY_lat_long.csv
+- in Excel, those Agency Names with duplicates removed, saved in:
+[ NY grouped lat long no dupes calced.xlsx ]
+
+
+========================================================================================================
+Possible other data sources:
+https://www.troopers.ny.gov/
+https://data.ny.gov/
+
+! NY state missing - https://ucr.fbi.gov/nibrs/2019/tables/data-tables#state-tables--offenses-by-agency
+
+Add notifications:
+https://amber.ny.gov/
+https://alert.ny.gov/
+https://data.ny.gov/dataset/Open-ny-gov-API-Catalog/vfrh-bvhu/about_data = socrata
+

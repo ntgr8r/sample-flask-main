@@ -1,0 +1,4010 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_93e56ee28ba58dfdfc3e1e3f6aa8236d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_93e56ee28ba58dfdfc3e1e3f6aa8236d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_93e56ee28ba58dfdfc3e1e3f6aa8236d = L.map(
+                "map_93e56ee28ba58dfdfc3e1e3f6aa8236d",
+                {
+                    center: [42.9538, -75.5268],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_962e550602acd2b8d19a5aeaf2f598a7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_962e550602acd2b8d19a5aeaf2f598a7.addTo(map_93e56ee28ba58dfdfc3e1e3f6aa8236d);
+        
+    
+            var marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_c2d5aea3d3ab8ce00a11373e343c4d0c = L.marker(
+                [42.639824, -73.96267],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_22985781d44121af3e567db69396e939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c361dcc337a5988218b7530324f9f714 = $(`<div id="html_c361dcc337a5988218b7530324f9f714" style="width: 100.0%; height: 100.0%;">Albany</div>`)[0];
+                popup_22985781d44121af3e567db69396e939.setContent(html_c361dcc337a5988218b7530324f9f714);
+            
+        
+
+        marker_c2d5aea3d3ab8ce00a11373e343c4d0c.bindPopup(popup_22985781d44121af3e567db69396e939)
+        ;
+
+        
+    
+    
+            var marker_2669e20c0b77dca8375292d56676ccf3 = L.marker(
+                [42.588272, -73.974015],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_e6ff729c1fef14bb9c166da638b3a1db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07e9c43df1efef7135c1de7385c14a56 = $(`<div id="html_07e9c43df1efef7135c1de7385c14a56" style="width: 100.0%; height: 100.0%;">Albany</div>`)[0];
+                popup_e6ff729c1fef14bb9c166da638b3a1db.setContent(html_07e9c43df1efef7135c1de7385c14a56);
+            
+        
+
+        marker_2669e20c0b77dca8375292d56676ccf3.bindPopup(popup_e6ff729c1fef14bb9c166da638b3a1db)
+        ;
+
+        
+    
+    
+            var marker_699649d6bdf82bd5a1f1d3eccf888181 = L.marker(
+                [42.588272, -73.974015],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_8babc133d45a65228d6bf0c01fb78972 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c54c6d6bd29a1ddc9863fcb4b770de96 = $(`<div id="html_c54c6d6bd29a1ddc9863fcb4b770de96" style="width: 100.0%; height: 100.0%;">Albany</div>`)[0];
+                popup_8babc133d45a65228d6bf0c01fb78972.setContent(html_c54c6d6bd29a1ddc9863fcb4b770de96);
+            
+        
+
+        marker_699649d6bdf82bd5a1f1d3eccf888181.bindPopup(popup_8babc133d45a65228d6bf0c01fb78972)
+        ;
+
+        
+    
+    
+            var marker_c40b913ec07c2220244ab07bff698dfc = L.marker(
+                [42.716103, -73.75535],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2a67cd1306d5d897fa3514a0c3be519a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff568f2ae2cf7ad099d9a967fb8c2ec4 = $(`<div id="html_ff568f2ae2cf7ad099d9a967fb8c2ec4" style="width: 100.0%; height: 100.0%;">Albany</div>`)[0];
+                popup_2a67cd1306d5d897fa3514a0c3be519a.setContent(html_ff568f2ae2cf7ad099d9a967fb8c2ec4);
+            
+        
+
+        marker_c40b913ec07c2220244ab07bff698dfc.bindPopup(popup_2a67cd1306d5d897fa3514a0c3be519a)
+        ;
+
+        
+    
+    
+            var marker_5197ce82f05c72ed7f0617b040d5ae32 = L.marker(
+                [42.535408, -78.42481],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_09ac314a2523a27eb9dfbe1c63e0366b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_550657258cbc99cca29751fc4dbc342e = $(`<div id="html_550657258cbc99cca29751fc4dbc342e" style="width: 100.0%; height: 100.0%;">Arcade Village</div>`)[0];
+                popup_09ac314a2523a27eb9dfbe1c63e0366b.setContent(html_550657258cbc99cca29751fc4dbc342e);
+            
+        
+
+        marker_5197ce82f05c72ed7f0617b040d5ae32.bindPopup(popup_09ac314a2523a27eb9dfbe1c63e0366b)
+        ;
+
+        
+    
+    
+            var marker_8a6c748db310aa54511eb82d32964555 = L.marker(
+                [42.934895, -76.56634],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_d2991e34944eeebba033fa0e98b54e8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_883650cdece99972785b6fb147f28a00 = $(`<div id="html_883650cdece99972785b6fb147f28a00" style="width: 100.0%; height: 100.0%;">Auburn</div>`)[0];
+                popup_d2991e34944eeebba033fa0e98b54e8b.setContent(html_883650cdece99972785b6fb147f28a00);
+            
+        
+
+        marker_8a6c748db310aa54511eb82d32964555.bindPopup(popup_d2991e34944eeebba033fa0e98b54e8b)
+        ;
+
+        
+    
+    
+            var marker_fb5f515ae69716e905c8c951b8f084f6 = L.marker(
+                [42.998146, -78.18762],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_3fb4d1c363f780efade8d5f0d42c1fc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2abf68e8fe71d4dc8c74e3a4106c2718 = $(`<div id="html_2abf68e8fe71d4dc8c74e3a4106c2718" style="width: 100.0%; height: 100.0%;">Batavia</div>`)[0];
+                popup_3fb4d1c363f780efade8d5f0d42c1fc5.setContent(html_2abf68e8fe71d4dc8c74e3a4106c2718);
+            
+        
+
+        marker_fb5f515ae69716e905c8c951b8f084f6.bindPopup(popup_3fb4d1c363f780efade8d5f0d42c1fc5)
+        ;
+
+        
+    
+    
+            var marker_cfbb4923c2c6d21da92caca9fcfcbb01 = L.marker(
+                [41.75501, -73.739951],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_71ab21cf0cc8ef7285ccaff9e7fb6b16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf630616eb6f1a27f7396c326033bf97 = $(`<div id="html_bf630616eb6f1a27f7396c326033bf97" style="width: 100.0%; height: 100.0%;">Beacon</div>`)[0];
+                popup_71ab21cf0cc8ef7285ccaff9e7fb6b16.setContent(html_bf630616eb6f1a27f7396c326033bf97);
+            
+        
+
+        marker_cfbb4923c2c6d21da92caca9fcfcbb01.bindPopup(popup_71ab21cf0cc8ef7285ccaff9e7fb6b16)
+        ;
+
+        
+    
+    
+            var marker_2e469f04cabe8eb19ca6ab6a8c1b1a26 = L.marker(
+                [41.239838, -73.69817],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_5e89b7f3b547a60f5a02814f346c92b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19e62e38b4be308109d2f20d37e7cf17 = $(`<div id="html_19e62e38b4be308109d2f20d37e7cf17" style="width: 100.0%; height: 100.0%;">Bedford Town</div>`)[0];
+                popup_5e89b7f3b547a60f5a02814f346c92b1.setContent(html_19e62e38b4be308109d2f20d37e7cf17);
+            
+        
+
+        marker_2e469f04cabe8eb19ca6ab6a8c1b1a26.bindPopup(popup_5e89b7f3b547a60f5a02814f346c92b1)
+        ;
+
+        
+    
+    
+            var marker_8c43a83615c35e38abf881a792a1c350 = L.marker(
+                [42.588272, -73.974015],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_f1dceb4283b415cc4761960c582e2a46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b4d50f51ebc9cc446333e27a2ee6a64 = $(`<div id="html_7b4d50f51ebc9cc446333e27a2ee6a64" style="width: 100.0%; height: 100.0%;">Bethlehem Town</div>`)[0];
+                popup_f1dceb4283b415cc4761960c582e2a46.setContent(html_7b4d50f51ebc9cc446333e27a2ee6a64);
+            
+        
+
+        marker_8c43a83615c35e38abf881a792a1c350.bindPopup(popup_f1dceb4283b415cc4761960c582e2a46)
+        ;
+
+        
+    
+    
+            var marker_07be6f806b74e1de753c191361e0e04b = L.marker(
+                [42.097076, -75.911995],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_0e9f74cd51b2c16fa1c7ee4e8227fd30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f2eccaa880d5924234e55888902cd91 = $(`<div id="html_0f2eccaa880d5924234e55888902cd91" style="width: 100.0%; height: 100.0%;">Binghamton</div>`)[0];
+                popup_0e9f74cd51b2c16fa1c7ee4e8227fd30.setContent(html_0f2eccaa880d5924234e55888902cd91);
+            
+        
+
+        marker_07be6f806b74e1de753c191361e0e04b.bindPopup(popup_0e9f74cd51b2c16fa1c7ee4e8227fd30)
+        ;
+
+        
+    
+    
+            var marker_6573eebdcd3b6a23ea070380e125fa3a = L.marker(
+                [42.161977, -75.830283],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_bb404dad246f8a712a7565317f278d3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_770f67fd9c5f3242ebf17be4ce4dec67 = $(`<div id="html_770f67fd9c5f3242ebf17be4ce4dec67" style="width: 100.0%; height: 100.0%;">Binghamton</div>`)[0];
+                popup_bb404dad246f8a712a7565317f278d3d.setContent(html_770f67fd9c5f3242ebf17be4ce4dec67);
+            
+        
+
+        marker_6573eebdcd3b6a23ea070380e125fa3a.bindPopup(popup_bb404dad246f8a712a7565317f278d3d)
+        ;
+
+        
+    
+    
+            var marker_db91c253322aaa3ddf32749030e4be8b = L.marker(
+                [43.126137, -77.574745],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_16659c841c399aa037ecc52d514d61e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac2e928b27298c6a9f7c4df9d6515c73 = $(`<div id="html_ac2e928b27298c6a9f7c4df9d6515c73" style="width: 100.0%; height: 100.0%;">Brighton Town</div>`)[0];
+                popup_16659c841c399aa037ecc52d514d61e5.setContent(html_ac2e928b27298c6a9f7c4df9d6515c73);
+            
+        
+
+        marker_db91c253322aaa3ddf32749030e4be8b.bindPopup(popup_16659c841c399aa037ecc52d514d61e5)
+        ;
+
+        
+    
+    
+            var marker_078ca265bd315f5f4c6341a9eddff693 = L.marker(
+                [43.464475, -77.664656],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_4af40e0fee2df2c5655a6e85cc1689df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18101f6c6148e6b1073e0774b2cf05fd = $(`<div id="html_18101f6c6148e6b1073e0774b2cf05fd" style="width: 100.0%; height: 100.0%;">Brockport Village</div>`)[0];
+                popup_4af40e0fee2df2c5655a6e85cc1689df.setContent(html_18101f6c6148e6b1073e0774b2cf05fd);
+            
+        
+
+        marker_078ca265bd315f5f4c6341a9eddff693.bindPopup(popup_4af40e0fee2df2c5655a6e85cc1689df)
+        ;
+
+        
+    
+    
+            var marker_5f18599252125bc5cfb1d779f53830d2 = L.marker(
+                [42.965775, -78.74092],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_e4f0e2573af666b255cdea7b61cd8f82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b01612907eab7ee945fab2170c0e3811 = $(`<div id="html_b01612907eab7ee945fab2170c0e3811" style="width: 100.0%; height: 100.0%;">Buffalo</div>`)[0];
+                popup_e4f0e2573af666b255cdea7b61cd8f82.setContent(html_b01612907eab7ee945fab2170c0e3811);
+            
+        
+
+        marker_5f18599252125bc5cfb1d779f53830d2.bindPopup(popup_e4f0e2573af666b255cdea7b61cd8f82)
+        ;
+
+        
+    
+    
+            var marker_e04596cc3989a8fa10c5d216771154d8 = L.marker(
+                [42.752759, -78.778192],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_0e744f02381ab549bb064f4b06bf5409 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4751bae32375ae05a7e346d6b2a616e5 = $(`<div id="html_4751bae32375ae05a7e346d6b2a616e5" style="width: 100.0%; height: 100.0%;">Buffalo</div>`)[0];
+                popup_0e744f02381ab549bb064f4b06bf5409.setContent(html_4751bae32375ae05a7e346d6b2a616e5);
+            
+        
+
+        marker_e04596cc3989a8fa10c5d216771154d8.bindPopup(popup_0e744f02381ab549bb064f4b06bf5409)
+        ;
+
+        
+    
+    
+            var marker_ac7b6bb8ef7d1ea6026d7ac7990dce51 = L.marker(
+                [42.752759, -78.778192],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_cbd3b3bedd1db4665e661e32742b7477 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a493dfa2567bbc48ab02225ac94745b = $(`<div id="html_2a493dfa2567bbc48ab02225ac94745b" style="width: 100.0%; height: 100.0%;">Buffalo</div>`)[0];
+                popup_cbd3b3bedd1db4665e661e32742b7477.setContent(html_2a493dfa2567bbc48ab02225ac94745b);
+            
+        
+
+        marker_ac7b6bb8ef7d1ea6026d7ac7990dce51.bindPopup(popup_cbd3b3bedd1db4665e661e32742b7477)
+        ;
+
+        
+    
+    
+            var marker_ec384436ded11e45920e5c64ae1b28e1 = L.marker(
+                [44.596363, -75.157295],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_6d4d20b45c2759eb4e367b0ec479bc9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_613d6d9be4f9c3b88eb389b366a09948 = $(`<div id="html_613d6d9be4f9c3b88eb389b366a09948" style="width: 100.0%; height: 100.0%;">Canton Village</div>`)[0];
+                popup_6d4d20b45c2759eb4e367b0ec479bc9f.setContent(html_613d6d9be4f9c3b88eb389b366a09948);
+            
+        
+
+        marker_ec384436ded11e45920e5c64ae1b28e1.bindPopup(popup_6d4d20b45c2759eb4e367b0ec479bc9f)
+        ;
+
+        
+    
+    
+            var marker_ba97bebd8f990106c2fb3fb399d6adf9 = L.marker(
+                [41.37683, -73.7241],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_d095d8dd669f4b17dd51265139cf2fd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_148ee0dc6c39cce357a05f611f782c6a = $(`<div id="html_148ee0dc6c39cce357a05f611f782c6a" style="width: 100.0%; height: 100.0%;">Carmel Town</div>`)[0];
+                popup_d095d8dd669f4b17dd51265139cf2fd7.setContent(html_148ee0dc6c39cce357a05f611f782c6a);
+            
+        
+
+        marker_ba97bebd8f990106c2fb3fb399d6adf9.bindPopup(popup_d095d8dd669f4b17dd51265139cf2fd7)
+        ;
+
+        
+    
+    
+            var marker_8ac22da230c777278bf560baf50807f7 = L.marker(
+                [43.11023, -77.49459],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_0887a8e758d891739be23f41e7eda1cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7551b13279bd6967db435ffccb2e3ce = $(`<div id="html_c7551b13279bd6967db435ffccb2e3ce" style="width: 100.0%; height: 100.0%;">Chester Village</div>`)[0];
+                popup_0887a8e758d891739be23f41e7eda1cc.setContent(html_c7551b13279bd6967db435ffccb2e3ce);
+            
+        
+
+        marker_8ac22da230c777278bf560baf50807f7.bindPopup(popup_0887a8e758d891739be23f41e7eda1cc)
+        ;
+
+        
+    
+    
+            var marker_84f69a505da1abddac157fb0154eac6d = L.marker(
+                [41.362164, -74.27227],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_0558af70d9290f69fa6f0f7422e662af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24fabc63e1c2e5b78f85ea92c36061f2 = $(`<div id="html_24fabc63e1c2e5b78f85ea92c36061f2" style="width: 100.0%; height: 100.0%;">Chester Village</div>`)[0];
+                popup_0558af70d9290f69fa6f0f7422e662af.setContent(html_24fabc63e1c2e5b78f85ea92c36061f2);
+            
+        
+
+        marker_84f69a505da1abddac157fb0154eac6d.bindPopup(popup_0558af70d9290f69fa6f0f7422e662af)
+        ;
+
+        
+    
+    
+            var marker_3278bb291114f621fd3b1f82575409f8 = L.marker(
+                [41.00708, -73.65825],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_7896644412711763fb957d85cd42cc00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4801ba2d8b4b3d2d0347e6b147684d9 = $(`<div id="html_d4801ba2d8b4b3d2d0347e6b147684d9" style="width: 100.0%; height: 100.0%;">Chester Village</div>`)[0];
+                popup_7896644412711763fb957d85cd42cc00.setContent(html_d4801ba2d8b4b3d2d0347e6b147684d9);
+            
+        
+
+        marker_3278bb291114f621fd3b1f82575409f8.bindPopup(popup_7896644412711763fb957d85cd42cc00)
+        ;
+
+        
+    
+    
+            var marker_17f209ee0e67fd8910e775a04f232bb7 = L.marker(
+                [41.14642, -73.988495],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_ac7db19ac245470a9652fbdbd85405a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_624556c1b3a0899a389823b132912691 = $(`<div id="html_624556c1b3a0899a389823b132912691" style="width: 100.0%; height: 100.0%;">Clarkstown Town</div>`)[0];
+                popup_ac7db19ac245470a9652fbdbd85405a4.setContent(html_624556c1b3a0899a389823b132912691);
+            
+        
+
+        marker_17f209ee0e67fd8910e775a04f232bb7.bindPopup(popup_ac7db19ac245470a9652fbdbd85405a4)
+        ;
+
+        
+    
+    
+            var marker_b1cdb2ade01715da72f52238baa8968d = L.marker(
+                [42.588272, -73.974015],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_b5c3e4e5f778e761d0f4fdb83c20feba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ff428bac4b25ffa8e146c1cb0e7e222 = $(`<div id="html_4ff428bac4b25ffa8e146c1cb0e7e222" style="width: 100.0%; height: 100.0%;">Colonie Town</div>`)[0];
+                popup_b5c3e4e5f778e761d0f4fdb83c20feba.setContent(html_4ff428bac4b25ffa8e146c1cb0e7e222);
+            
+        
+
+        marker_b1cdb2ade01715da72f52238baa8968d.bindPopup(popup_b5c3e4e5f778e761d0f4fdb83c20feba)
+        ;
+
+        
+    
+    
+            var marker_db46d5e2ac21517b1b78ef2dde00e3d3 = L.marker(
+                [42.597927, -76.175285],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_dc56362bb8f57bbf0e3881037ffda67f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5bcece70b1bece4f953913d8f1c991d = $(`<div id="html_e5bcece70b1bece4f953913d8f1c991d" style="width: 100.0%; height: 100.0%;">Cortland</div>`)[0];
+                popup_dc56362bb8f57bbf0e3881037ffda67f.setContent(html_e5bcece70b1bece4f953913d8f1c991d);
+            
+        
+
+        marker_db46d5e2ac21517b1b78ef2dde00e3d3.bindPopup(popup_dc56362bb8f57bbf0e3881037ffda67f)
+        ;
+
+        
+    
+    
+            var marker_f919f5f64f6ac2728f8db771e5dc1e92 = L.marker(
+                [42.599316, -76.1797],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_be1c54f5f7e54b7eac1ea17a1f214e27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb632b533cbbb7b769573bb34142e0e5 = $(`<div id="html_eb632b533cbbb7b769573bb34142e0e5" style="width: 100.0%; height: 100.0%;">Cortland</div>`)[0];
+                popup_be1c54f5f7e54b7eac1ea17a1f214e27.setContent(html_eb632b533cbbb7b769573bb34142e0e5);
+            
+        
+
+        marker_f919f5f64f6ac2728f8db771e5dc1e92.bindPopup(popup_be1c54f5f7e54b7eac1ea17a1f214e27)
+        ;
+
+        
+    
+    
+            var marker_366156287ab38f8687fa6a05bcb97f27 = L.marker(
+                [42.594039, -76.07624],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_263b3abef79edf62625ad3a546f5b49b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6726deca782935c48ad8eb0cdbd9b9a1 = $(`<div id="html_6726deca782935c48ad8eb0cdbd9b9a1" style="width: 100.0%; height: 100.0%;">Cortland</div>`)[0];
+                popup_263b3abef79edf62625ad3a546f5b49b.setContent(html_6726deca782935c48ad8eb0cdbd9b9a1);
+            
+        
+
+        marker_366156287ab38f8687fa6a05bcb97f27.bindPopup(popup_263b3abef79edf62625ad3a546f5b49b)
+        ;
+
+        
+    
+    
+            var marker_04c1d79bdf357fd614ea5c197acce8d8 = L.marker(
+                [42.594039, -76.07624],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_5c9cba55e71aea61254a6507bdb468b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1875da9aeb9ffbb26f2709f26d27297 = $(`<div id="html_b1875da9aeb9ffbb26f2709f26d27297" style="width: 100.0%; height: 100.0%;">Cortland</div>`)[0];
+                popup_5c9cba55e71aea61254a6507bdb468b9.setContent(html_b1875da9aeb9ffbb26f2709f26d27297);
+            
+        
+
+        marker_04c1d79bdf357fd614ea5c197acce8d8.bindPopup(popup_5c9cba55e71aea61254a6507bdb468b9)
+        ;
+
+        
+    
+    
+            var marker_ab77f0f63b3595798d02ef8e186c0842 = L.marker(
+                [41.40241, -74.306252],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_1dd9f4ed0b090b8f2b4f773d3dbec03d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30fd3b3f57cfce585a9546745d58279c = $(`<div id="html_30fd3b3f57cfce585a9546745d58279c" style="width: 100.0%; height: 100.0%;">Deerpark Town</div>`)[0];
+                popup_1dd9f4ed0b090b8f2b4f773d3dbec03d.setContent(html_30fd3b3f57cfce585a9546745d58279c);
+            
+        
+
+        marker_ab77f0f63b3595798d02ef8e186c0842.bindPopup(popup_1dd9f4ed0b090b8f2b4f773d3dbec03d)
+        ;
+
+        
+    
+    
+            var marker_25bc5d59ea5cbfc9044eb050081f7698 = L.marker(
+                [42.304216, -79.407595],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_e61692832642b7b6a9527a564528ccba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84f0ce59f3e6b0550bc2c8910402c297 = $(`<div id="html_84f0ce59f3e6b0550bc2c8910402c297" style="width: 100.0%; height: 100.0%;">Dunkirk</div>`)[0];
+                popup_e61692832642b7b6a9527a564528ccba.setContent(html_84f0ce59f3e6b0550bc2c8910402c297);
+            
+        
+
+        marker_25bc5d59ea5cbfc9044eb050081f7698.bindPopup(popup_e61692832642b7b6a9527a564528ccba)
+        ;
+
+        
+    
+    
+            var marker_ce160a2eb88f378f3b5fd21e0b842dd4 = L.marker(
+                [41.55363, -73.79471],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_041bf104931ebb682171d64ddef1e40a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_049b7e49055c667c5911042ba3c47144 = $(`<div id="html_049b7e49055c667c5911042ba3c47144" style="width: 100.0%; height: 100.0%;">East Fishkill Town</div>`)[0];
+                popup_041bf104931ebb682171d64ddef1e40a.setContent(html_049b7e49055c667c5911042ba3c47144);
+            
+        
+
+        marker_ce160a2eb88f378f3b5fd21e0b842dd4.bindPopup(popup_041bf104931ebb682171d64ddef1e40a)
+        ;
+
+        
+    
+    
+            var marker_7c59dcb73943e3291e8af8c1aa4b5dbd = L.marker(
+                [43.11023, -77.49459],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_c7bb5ee3744476ee19c16006950c664a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7b43159d1f0974143036db7ef781977 = $(`<div id="html_c7b43159d1f0974143036db7ef781977" style="width: 100.0%; height: 100.0%;">East Rochester Village</div>`)[0];
+                popup_c7bb5ee3744476ee19c16006950c664a.setContent(html_c7b43159d1f0974143036db7ef781977);
+            
+        
+
+        marker_7c59dcb73943e3291e8af8c1aa4b5dbd.bindPopup(popup_c7bb5ee3744476ee19c16006950c664a)
+        ;
+
+        
+    
+    
+            var marker_7e12e2aa3ec7acc9ac63be459a75c1d4 = L.marker(
+                [42.120502, -79.20066],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_900cc69c35486956eed85a6f59083dbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d43c9e7cbe36a6d5619b7bda1bff0955 = $(`<div id="html_d43c9e7cbe36a6d5619b7bda1bff0955" style="width: 100.0%; height: 100.0%;">Ellicott Town</div>`)[0];
+                popup_900cc69c35486956eed85a6f59083dbe.setContent(html_d43c9e7cbe36a6d5619b7bda1bff0955);
+            
+        
+
+        marker_7e12e2aa3ec7acc9ac63be459a75c1d4.bindPopup(popup_900cc69c35486956eed85a6f59083dbe)
+        ;
+
+        
+    
+    
+            var marker_6f0eec2c9845a88412cd994ead48cd9a = L.marker(
+                [42.161977, -75.830283],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2ae2d8c4bf0999e20ca6697dffbe6523 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_645dcb01cbbedff5ed1380528d369fde = $(`<div id="html_645dcb01cbbedff5ed1380528d369fde" style="width: 100.0%; height: 100.0%;">Endicott Village</div>`)[0];
+                popup_2ae2d8c4bf0999e20ca6697dffbe6523.setContent(html_645dcb01cbbedff5ed1380528d369fde);
+            
+        
+
+        marker_6f0eec2c9845a88412cd994ead48cd9a.bindPopup(popup_2ae2d8c4bf0999e20ca6697dffbe6523)
+        ;
+
+        
+    
+    
+            var marker_5e00aed4ddf5444fcf9106b3f005fc09 = L.marker(
+                [43.100693, -77.441925],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_924b5e6144dae257536abc090d8478d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbca0c139f5c636995b48ebe565188f9 = $(`<div id="html_fbca0c139f5c636995b48ebe565188f9" style="width: 100.0%; height: 100.0%;">Fairport Village</div>`)[0];
+                popup_924b5e6144dae257536abc090d8478d3.setContent(html_fbca0c139f5c636995b48ebe565188f9);
+            
+        
+
+        marker_5e00aed4ddf5444fcf9106b3f005fc09.bindPopup(popup_924b5e6144dae257536abc090d8478d3)
+        ;
+
+        
+    
+    
+            var marker_49a51d100f08b19902a9270cf9a1407f = L.marker(
+                [41.53271, -73.90609],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_a8f5536cac2675cfeb60d976ebf5ead8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75f2925d7fa65687728f8f3b8e29a0c6 = $(`<div id="html_75f2925d7fa65687728f8f3b8e29a0c6" style="width: 100.0%; height: 100.0%;">Fishkill Village</div>`)[0];
+                popup_a8f5536cac2675cfeb60d976ebf5ead8.setContent(html_75f2925d7fa65687728f8f3b8e29a0c6);
+            
+        
+
+        marker_49a51d100f08b19902a9270cf9a1407f.bindPopup(popup_a8f5536cac2675cfeb60d976ebf5ead8)
+        ;
+
+        
+    
+    
+            var marker_ce25443d1548dd006ecfa2f3f6230f27 = L.marker(
+                [42.440598, -79.33228],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_42222fa31abe43eda871c0f97b46de28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e95356121f1c64056684c8eec2bdc71 = $(`<div id="html_1e95356121f1c64056684c8eec2bdc71" style="width: 100.0%; height: 100.0%;">Fredonia Village</div>`)[0];
+                popup_42222fa31abe43eda871c0f97b46de28.setContent(html_1e95356121f1c64056684c8eec2bdc71);
+            
+        
+
+        marker_ce25443d1548dd006ecfa2f3f6230f27.bindPopup(popup_42222fa31abe43eda871c0f97b46de28)
+        ;
+
+        
+    
+    
+            var marker_4d2180a91afab6641cb7ff84c7085f28 = L.marker(
+                [40.65861, -73.58728],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_849f83a294b3348a9a90e2e2f3a7bd30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b5a9406525d29ace1fc9d4fcb27c4b2 = $(`<div id="html_1b5a9406525d29ace1fc9d4fcb27c4b2" style="width: 100.0%; height: 100.0%;">Freeport Village</div>`)[0];
+                popup_849f83a294b3348a9a90e2e2f3a7bd30.setContent(html_1b5a9406525d29ace1fc9d4fcb27c4b2);
+            
+        
+
+        marker_4d2180a91afab6641cb7ff84c7085f28.bindPopup(popup_849f83a294b3348a9a90e2e2f3a7bd30)
+        ;
+
+        
+    
+    
+            var marker_7f40f8c3a1be3c11aa97fc4a5670429e = L.marker(
+                [43.295177, -73.6358],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_17942c1674cd5ec650aae4075e197071 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6974869374e4913bb7bf03bb246a5dea = $(`<div id="html_6974869374e4913bb7bf03bb246a5dea" style="width: 100.0%; height: 100.0%;">Glens Falls</div>`)[0];
+                popup_17942c1674cd5ec650aae4075e197071.setContent(html_6974869374e4913bb7bf03bb246a5dea);
+            
+        
+
+        marker_7f40f8c3a1be3c11aa97fc4a5670429e.bindPopup(popup_17942c1674cd5ec650aae4075e197071)
+        ;
+
+        
+    
+    
+            var marker_190cafb0fd9679dccb1bc74e71e07835 = L.marker(
+                [43.31059, -73.6439],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_5a93583765fa468e0059b5a46c27f5c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b2c74684260aaf58da5a7a184faf183 = $(`<div id="html_9b2c74684260aaf58da5a7a184faf183" style="width: 100.0%; height: 100.0%;">Glens Falls</div>`)[0];
+                popup_5a93583765fa468e0059b5a46c27f5c9.setContent(html_9b2c74684260aaf58da5a7a184faf183);
+            
+        
+
+        marker_190cafb0fd9679dccb1bc74e71e07835.bindPopup(popup_5a93583765fa468e0059b5a46c27f5c9)
+        ;
+
+        
+    
+    
+            var marker_fea4c7297bd336dc6bf9cf114f1f67f5 = L.marker(
+                [41.39594, -74.35012],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_5f48171c39f72dde12d30baacca7750b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d015cd21179a76263c5b07748333fdcc = $(`<div id="html_d015cd21179a76263c5b07748333fdcc" style="width: 100.0%; height: 100.0%;">Goshen Town</div>`)[0];
+                popup_5f48171c39f72dde12d30baacca7750b.setContent(html_d015cd21179a76263c5b07748333fdcc);
+            
+        
+
+        marker_fea4c7297bd336dc6bf9cf114f1f67f5.bindPopup(popup_5f48171c39f72dde12d30baacca7750b)
+        ;
+
+        
+    
+    
+            var marker_0b35ab9f12e41f4df9bd2ea921da3978 = L.marker(
+                [44.488112, -75.074311],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_0a9a34c773480762f9f51e894879966a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2519ff174751a7f6b7b2ea6ad51595b4 = $(`<div id="html_2519ff174751a7f6b7b2ea6ad51595b4" style="width: 100.0%; height: 100.0%;">Gouverneur Village</div>`)[0];
+                popup_0a9a34c773480762f9f51e894879966a.setContent(html_2519ff174751a7f6b7b2ea6ad51595b4);
+            
+        
+
+        marker_0b35ab9f12e41f4df9bd2ea921da3978.bindPopup(popup_0a9a34c773480762f9f51e894879966a)
+        ;
+
+        
+    
+    
+            var marker_88c9c0985267a87f87de5398ed5b263c = L.marker(
+                [43.260735, -77.665306],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_7fe4ed92f4fa3624c54a48548e870c76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_579147bc57a803767b709ad70586f07d = $(`<div id="html_579147bc57a803767b709ad70586f07d" style="width: 100.0%; height: 100.0%;">Greece Town</div>`)[0];
+                popup_7fe4ed92f4fa3624c54a48548e870c76.setContent(html_579147bc57a803767b709ad70586f07d);
+            
+        
+
+        marker_88c9c0985267a87f87de5398ed5b263c.bindPopup(popup_7fe4ed92f4fa3624c54a48548e870c76)
+        ;
+
+        
+    
+    
+            var marker_44e4f9e89500d29759aece067440eea2 = L.marker(
+                [41.0404, -73.78661],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_3d6a1e724a742a2bdcef1466d6d9480c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e02d0e07e309d0249fdefc9f744df821 = $(`<div id="html_e02d0e07e309d0249fdefc9f744df821" style="width: 100.0%; height: 100.0%;">Greenburgh Town</div>`)[0];
+                popup_3d6a1e724a742a2bdcef1466d6d9480c.setContent(html_e02d0e07e309d0249fdefc9f744df821);
+            
+        
+
+        marker_44e4f9e89500d29759aece067440eea2.bindPopup(popup_3d6a1e724a742a2bdcef1466d6d9480c)
+        ;
+
+        
+    
+    
+            var marker_2aa8c086edc9cc19d1fa7a53474d5f31 = L.marker(
+                [40.70976, -73.62349],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_8ec270386499d93c6e3302e9df5430b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba9ce23100240f6f1ad36c7e1129b6e5 = $(`<div id="html_ba9ce23100240f6f1ad36c7e1129b6e5" style="width: 100.0%; height: 100.0%;">Hempstead Village</div>`)[0];
+                popup_8ec270386499d93c6e3302e9df5430b9.setContent(html_ba9ce23100240f6f1ad36c7e1129b6e5);
+            
+        
+
+        marker_2aa8c086edc9cc19d1fa7a53474d5f31.bindPopup(popup_8ec270386499d93c6e3302e9df5430b9)
+        ;
+
+        
+    
+    
+            var marker_a168a910b9125d69a66f56de7652baf5 = L.marker(
+                [41.804367, -73.91172],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_48ee69e986fe496c4d5f4740d7416ac7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b57735cce8c00fe347dcee0be51319e = $(`<div id="html_5b57735cce8c00fe347dcee0be51319e" style="width: 100.0%; height: 100.0%;">Hyde Park Town</div>`)[0];
+                popup_48ee69e986fe496c4d5f4740d7416ac7.setContent(html_5b57735cce8c00fe347dcee0be51319e);
+            
+        
+
+        marker_a168a910b9125d69a66f56de7652baf5.bindPopup(popup_48ee69e986fe496c4d5f4740d7416ac7)
+        ;
+
+        
+    
+    
+            var marker_849db1a4840bc0dfe1223749aadbe0c7 = L.marker(
+                [43.014633, -75.03761],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_5a5de973857acbdcb19cf657d431a96e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be0dc5872f9e93624c60a8b3791f4743 = $(`<div id="html_be0dc5872f9e93624c60a8b3791f4743" style="width: 100.0%; height: 100.0%;">Ilion Village</div>`)[0];
+                popup_5a5de973857acbdcb19cf657d431a96e.setContent(html_be0dc5872f9e93624c60a8b3791f4743);
+            
+        
+
+        marker_849db1a4840bc0dfe1223749aadbe0c7.bindPopup(popup_5a5de973857acbdcb19cf657d431a96e)
+        ;
+
+        
+    
+    
+            var marker_8c9062e34d3a38a279c11c23d552706d = L.marker(
+                [43.21119, -77.581154],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_82564817153075db508cd54a42a773ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98ed62712828b1de3219f7784a97c073 = $(`<div id="html_98ed62712828b1de3219f7784a97c073" style="width: 100.0%; height: 100.0%;">Irondequoit Town</div>`)[0];
+                popup_82564817153075db508cd54a42a773ed.setContent(html_98ed62712828b1de3219f7784a97c073);
+            
+        
+
+        marker_8c9062e34d3a38a279c11c23d552706d.bindPopup(popup_82564817153075db508cd54a42a773ed)
+        ;
+
+        
+    
+    
+            var marker_7cbd972f07b8c543afb6411e679f34a5 = L.marker(
+                [42.096424, -79.236565],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2b55fb45a75951b4ca272e4c2e107da0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b042f85eca7e4bf67359ecb7b4697b9 = $(`<div id="html_3b042f85eca7e4bf67359ecb7b4697b9" style="width: 100.0%; height: 100.0%;">Jamestown</div>`)[0];
+                popup_2b55fb45a75951b4ca272e4c2e107da0.setContent(html_3b042f85eca7e4bf67359ecb7b4697b9);
+            
+        
+
+        marker_7cbd972f07b8c543afb6411e679f34a5.bindPopup(popup_2b55fb45a75951b4ca272e4c2e107da0)
+        ;
+
+        
+    
+    
+            var marker_9f8a04dc2a95eba49a743bcce45519f6 = L.marker(
+                [42.115253, -75.95462],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_832d5c5a6f5e2f06e959d4ebc4eecc7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90be521d74af63a263c986a1a7ff4964 = $(`<div id="html_90be521d74af63a263c986a1a7ff4964" style="width: 100.0%; height: 100.0%;">Johnson City Village</div>`)[0];
+                popup_832d5c5a6f5e2f06e959d4ebc4eecc7b.setContent(html_90be521d74af63a263c986a1a7ff4964);
+            
+        
+
+        marker_9f8a04dc2a95eba49a743bcce45519f6.bindPopup(popup_832d5c5a6f5e2f06e959d4ebc4eecc7b)
+        ;
+
+        
+    
+    
+            var marker_f6b2373c9a5e171c284beb2d76de90a2 = L.marker(
+                [42.103367, -79.32411],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_a8e07fad5805aa44ef2a1afef297d2c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bc7321c5cb9c1749adf6860e8ca0a49 = $(`<div id="html_7bc7321c5cb9c1749adf6860e8ca0a49" style="width: 100.0%; height: 100.0%;">Lakewood-Busti</div>`)[0];
+                popup_a8e07fad5805aa44ef2a1afef297d2c4.setContent(html_7bc7321c5cb9c1749adf6860e8ca0a49);
+            
+        
+
+        marker_f6b2373c9a5e171c284beb2d76de90a2.bindPopup(popup_a8e07fad5805aa44ef2a1afef297d2c4)
+        ;
+
+        
+    
+    
+            var marker_2b50399bd87caaa386db91970cb4589e = L.marker(
+                [42.97761, -77.988976],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_537140a18cb4eec8591bc549659334c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a7ac6d00bc2903a973bcb406f137416 = $(`<div id="html_6a7ac6d00bc2903a973bcb406f137416" style="width: 100.0%; height: 100.0%;">Le Roy Village</div>`)[0];
+                popup_537140a18cb4eec8591bc549659334c9.setContent(html_6a7ac6d00bc2903a973bcb406f137416);
+            
+        
+
+        marker_2b50399bd87caaa386db91970cb4589e.bindPopup(popup_537140a18cb4eec8591bc549659334c9)
+        ;
+
+        
+    
+    
+            var marker_e4a9762774b424e05513a6958ed6f3b3 = L.marker(
+                [43.17389, -79.04445],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_e7860f10f65a10ac210a15634ec174d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceeaca5b6d71898195b27b188a2b0ded = $(`<div id="html_ceeaca5b6d71898195b27b188a2b0ded" style="width: 100.0%; height: 100.0%;">Lewiston Town and Village</div>`)[0];
+                popup_e7860f10f65a10ac210a15634ec174d6.setContent(html_ceeaca5b6d71898195b27b188a2b0ded);
+            
+        
+
+        marker_e4a9762774b424e05513a6958ed6f3b3.bindPopup(popup_e7860f10f65a10ac210a15634ec174d6)
+        ;
+
+        
+    
+    
+            var marker_42317a881833518186b18c19a89332bb = L.marker(
+                [41.719204, -73.965546],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_8adeeadc6b5a189faacf8271c4fe66cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f817f840ce054abf531cdc9ac937eab6 = $(`<div id="html_f817f840ce054abf531cdc9ac937eab6" style="width: 100.0%; height: 100.0%;">Lloyd Town</div>`)[0];
+                popup_8adeeadc6b5a189faacf8271c4fe66cc.setContent(html_f817f840ce054abf531cdc9ac937eab6);
+            
+        
+
+        marker_42317a881833518186b18c19a89332bb.bindPopup(popup_8adeeadc6b5a189faacf8271c4fe66cc)
+        ;
+
+        
+    
+    
+            var marker_e279919bf34f0c5f556906e16b1445cc = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2ffed78a8d7635cd25078d9e3ba6586f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1177f7ff3f72e7e8ebde1ac2dc7c32e = $(`<div id="html_d1177f7ff3f72e7e8ebde1ac2dc7c32e" style="width: 100.0%; height: 100.0%;">Marlborough Town</div>`)[0];
+                popup_2ffed78a8d7635cd25078d9e3ba6586f.setContent(html_d1177f7ff3f72e7e8ebde1ac2dc7c32e);
+            
+        
+
+        marker_e279919bf34f0c5f556906e16b1445cc.bindPopup(popup_2ffed78a8d7635cd25078d9e3ba6586f)
+        ;
+
+        
+    
+    
+            var marker_035c9c34fb3ebd0547065ed3f00cea4d = L.marker(
+                [44.93134, -74.89285],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2200e8806d60e94c28159a47180ea74a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_244b411a3d4bbd58db32fcdcbdb13150 = $(`<div id="html_244b411a3d4bbd58db32fcdcbdb13150" style="width: 100.0%; height: 100.0%;">Massena Village</div>`)[0];
+                popup_2200e8806d60e94c28159a47180ea74a.setContent(html_244b411a3d4bbd58db32fcdcbdb13150);
+            
+        
+
+        marker_035c9c34fb3ebd0547065ed3f00cea4d.bindPopup(popup_2200e8806d60e94c28159a47180ea74a)
+        ;
+
+        
+    
+    
+            var marker_5c57176195f7e6a994d848093f152e37 = L.marker(
+                [41.48338, -74.21824],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_6b2eeef17577aa3b2d5ea5d78be046fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43daf2a0d5abfe7688af3fda824be6da = $(`<div id="html_43daf2a0d5abfe7688af3fda824be6da" style="width: 100.0%; height: 100.0%;">Maybrook Village</div>`)[0];
+                popup_6b2eeef17577aa3b2d5ea5d78be046fd.setContent(html_43daf2a0d5abfe7688af3fda824be6da);
+            
+        
+
+        marker_5c57176195f7e6a994d848093f152e37.bindPopup(popup_6b2eeef17577aa3b2d5ea5d78be046fd)
+        ;
+
+        
+    
+    
+            var marker_831810c6dc05021f779e7e2b6472014a = L.marker(
+                [41.44597, -74.42122],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_f25d000f7a6d9c05c188ebcd3e592d77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eff2440eec1022e55147a2c919792792 = $(`<div id="html_eff2440eec1022e55147a2c919792792" style="width: 100.0%; height: 100.0%;">Middletown</div>`)[0];
+                popup_f25d000f7a6d9c05c188ebcd3e592d77.setContent(html_eff2440eec1022e55147a2c919792792);
+            
+        
+
+        marker_831810c6dc05021f779e7e2b6472014a.bindPopup(popup_f25d000f7a6d9c05c188ebcd3e592d77)
+        ;
+
+        
+    
+    
+            var marker_8ddcc7a4b2a087eda9904ab72e5f086a = L.marker(
+                [43.05529, -75.27844],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_b842c953e622a097ebe70e1a3a1ad7e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_267abb766ebc36ba4ad1ab2158ebc0c1 = $(`<div id="html_267abb766ebc36ba4ad1ab2158ebc0c1" style="width: 100.0%; height: 100.0%;">New Hartford Town and Village</div>`)[0];
+                popup_b842c953e622a097ebe70e1a3a1ad7e0.setContent(html_267abb766ebc36ba4ad1ab2158ebc0c1);
+            
+        
+
+        marker_8ddcc7a4b2a087eda9904ab72e5f086a.bindPopup(popup_b842c953e622a097ebe70e1a3a1ad7e0)
+        ;
+
+        
+    
+    
+            var marker_8dc51c3b5ac869c32a9eab6a872f4044 = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_25449e1a884a06c573671d206c06b68a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b59b554460c004acfcff9ccf66107e5 = $(`<div id="html_0b59b554460c004acfcff9ccf66107e5" style="width: 100.0%; height: 100.0%;">New Paltz Town and Village</div>`)[0];
+                popup_25449e1a884a06c573671d206c06b68a.setContent(html_0b59b554460c004acfcff9ccf66107e5);
+            
+        
+
+        marker_8dc51c3b5ac869c32a9eab6a872f4044.bindPopup(popup_25449e1a884a06c573671d206c06b68a)
+        ;
+
+        
+    
+    
+            var marker_a61e83169cf0a329822fb43503f3592e = L.marker(
+                [41.15277, -73.745912],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_69089688e2fafc305f722a40f5d4e149 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eb9bbedd2f69334d6d717fcedfdd3a5 = $(`<div id="html_1eb9bbedd2f69334d6d717fcedfdd3a5" style="width: 100.0%; height: 100.0%;">New Rochelle</div>`)[0];
+                popup_69089688e2fafc305f722a40f5d4e149.setContent(html_1eb9bbedd2f69334d6d717fcedfdd3a5);
+            
+        
+
+        marker_a61e83169cf0a329822fb43503f3592e.bindPopup(popup_69089688e2fafc305f722a40f5d4e149)
+        ;
+
+        
+    
+    
+            var marker_6164ee8c153f7d6ffeaec4e8da8ee7eb = L.marker(
+                [43.456731, -78.792142],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_4b46d1dc831f4747357d065c1efda48e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48845278bd25554eca65a0314f69351e = $(`<div id="html_48845278bd25554eca65a0314f69351e" style="width: 100.0%; height: 100.0%;">Niagara Falls</div>`)[0];
+                popup_4b46d1dc831f4747357d065c1efda48e.setContent(html_48845278bd25554eca65a0314f69351e);
+            
+        
+
+        marker_6164ee8c153f7d6ffeaec4e8da8ee7eb.bindPopup(popup_4b46d1dc831f4747357d065c1efda48e)
+        ;
+
+        
+    
+    
+            var marker_2f8c8ef2735356a68c43d6ac6d2810eb = L.marker(
+                [43.122276, -78.98145],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_af010fdf98c94035b3bed4dabaa081c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3f80ed7de1c0edc48a9385dbf8e5e9e = $(`<div id="html_e3f80ed7de1c0edc48a9385dbf8e5e9e" style="width: 100.0%; height: 100.0%;">Niagara Town</div>`)[0];
+                popup_af010fdf98c94035b3bed4dabaa081c9.setContent(html_e3f80ed7de1c0edc48a9385dbf8e5e9e);
+            
+        
+
+        marker_2f8c8ef2735356a68c43d6ac6d2810eb.bindPopup(popup_af010fdf98c94035b3bed4dabaa081c9)
+        ;
+
+        
+    
+    
+            var marker_5765ce0d0251efadcfc7535964818d81 = L.marker(
+                [43.02939, -78.86944],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_e7e23430ae6e89dc930c8d3e583e43b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3b2bb547a04315cab1a3c8a1681ab4b = $(`<div id="html_f3b2bb547a04315cab1a3c8a1681ab4b" style="width: 100.0%; height: 100.0%;">North Tonawanda</div>`)[0];
+                popup_e7e23430ae6e89dc930c8d3e583e43b2.setContent(html_f3b2bb547a04315cab1a3c8a1681ab4b);
+            
+        
+
+        marker_5765ce0d0251efadcfc7535964818d81.bindPopup(popup_e7e23430ae6e89dc930c8d3e583e43b2)
+        ;
+
+        
+    
+    
+            var marker_8a45901e8388fe97b5136a22c6105e8b = L.marker(
+                [44.69654, -75.47554],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_1fc78001e0d32f491d33de0800d495a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be90c0e8adce76c4e52010f5d4b67ab8 = $(`<div id="html_be90c0e8adce76c4e52010f5d4b67ab8" style="width: 100.0%; height: 100.0%;">Ogdensburg</div>`)[0];
+                popup_1fc78001e0d32f491d33de0800d495a5.setContent(html_be90c0e8adce76c4e52010f5d4b67ab8);
+            
+        
+
+        marker_8a45901e8388fe97b5136a22c6105e8b.bindPopup(popup_1fc78001e0d32f491d33de0800d495a5)
+        ;
+
+        
+    
+    
+            var marker_8eda1672da5bd27f5d05608ac1021a29 = L.marker(
+                [43.464475, -77.664656],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_9026f45a6c02dad4a72ed3ae62372e4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c3809fdcd56a310959bb11fa2213cb5 = $(`<div id="html_5c3809fdcd56a310959bb11fa2213cb5" style="width: 100.0%; height: 100.0%;">Ogden Town</div>`)[0];
+                popup_9026f45a6c02dad4a72ed3ae62372e4f.setContent(html_5c3809fdcd56a310959bb11fa2213cb5);
+            
+        
+
+        marker_8eda1672da5bd27f5d05608ac1021a29.bindPopup(popup_9026f45a6c02dad4a72ed3ae62372e4f)
+        ;
+
+        
+    
+    
+            var marker_2046b003f3863882c65bd1a58b0bc3dc = L.marker(
+                [40.780228, -73.605354],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_9c82250cb9ae2e843a67ed56f38977db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e71c95e754de387b13060aab0babb9f = $(`<div id="html_0e71c95e754de387b13060aab0babb9f" style="width: 100.0%; height: 100.0%;">Old Westbury Village</div>`)[0];
+                popup_9c82250cb9ae2e843a67ed56f38977db.setContent(html_0e71c95e754de387b13060aab0babb9f);
+            
+        
+
+        marker_2046b003f3863882c65bd1a58b0bc3dc.bindPopup(popup_9c82250cb9ae2e843a67ed56f38977db)
+        ;
+
+        
+    
+    
+            var marker_b13184068273f889ae6dfecd779e7235 = L.marker(
+                [42.077515, -78.42975],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_59fc22e9fd415044546e19f9c88cbc3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_017a01acd9fa168099ffd0152947ffbd = $(`<div id="html_017a01acd9fa168099ffd0152947ffbd" style="width: 100.0%; height: 100.0%;">Olean</div>`)[0];
+                popup_59fc22e9fd415044546e19f9c88cbc3c.setContent(html_017a01acd9fa168099ffd0152947ffbd);
+            
+        
+
+        marker_b13184068273f889ae6dfecd779e7235.bindPopup(popup_59fc22e9fd415044546e19f9c88cbc3c)
+        ;
+
+        
+    
+    
+            var marker_6e633ab621a7b263f161257ab1ea26d1 = L.marker(
+                [42.451134, -75.0639],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_6d1f3712074948573904f9958bb65a8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9547d11833e2434b01b39987e758941c = $(`<div id="html_9547d11833e2434b01b39987e758941c" style="width: 100.0%; height: 100.0%;">Oneonta City</div>`)[0];
+                popup_6d1f3712074948573904f9958bb65a8d.setContent(html_9547d11833e2434b01b39987e758941c);
+            
+        
+
+        marker_6e633ab621a7b263f161257ab1ea26d1.bindPopup(popup_6d1f3712074948573904f9958bb65a8d)
+        ;
+
+        
+    
+    
+            var marker_b66716b17d30964992ff4d767c47b3b9 = L.marker(
+                [41.044815, -73.966],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_ce6c5bc4104327d98426d6edd3c2a0fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_996ea4f35f4423dbd4b18f23574eaa0c = $(`<div id="html_996ea4f35f4423dbd4b18f23574eaa0c" style="width: 100.0%; height: 100.0%;">Orangetown Town</div>`)[0];
+                popup_ce6c5bc4104327d98426d6edd3c2a0fe.setContent(html_996ea4f35f4423dbd4b18f23574eaa0c);
+            
+        
+
+        marker_b66716b17d30964992ff4d767c47b3b9.bindPopup(popup_ce6c5bc4104327d98426d6edd3c2a0fe)
+        ;
+
+        
+    
+    
+            var marker_4611b2baa6a5195e68b63d7950cf7027 = L.marker(
+                [43.461443, -76.209258],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_b0657594df55eb6aa1302300d3a52c12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68c544416933b08c2466ab2de782c999 = $(`<div id="html_68c544416933b08c2466ab2de782c999" style="width: 100.0%; height: 100.0%;">Oswego City</div>`)[0];
+                popup_b0657594df55eb6aa1302300d3a52c12.setContent(html_68c544416933b08c2466ab2de782c999);
+            
+        
+
+        marker_4611b2baa6a5195e68b63d7950cf7027.bindPopup(popup_b0657594df55eb6aa1302300d3a52c12)
+        ;
+
+        
+    
+    
+            var marker_eb0be54c7938ce34145946e39a49e5a8 = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_4612a8ecda9e2b66bebb30503266e536 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4eed084f7c6376cf051dbf6016dbb82a = $(`<div id="html_4eed084f7c6376cf051dbf6016dbb82a" style="width: 100.0%; height: 100.0%;">Plattekill Town</div>`)[0];
+                popup_4612a8ecda9e2b66bebb30503266e536.setContent(html_4eed084f7c6376cf051dbf6016dbb82a);
+            
+        
+
+        marker_eb0be54c7938ce34145946e39a49e5a8.bindPopup(popup_4612a8ecda9e2b66bebb30503266e536)
+        ;
+
+        
+    
+    
+            var marker_9fb26f610e5f34fdf0b8dcda9683a06b = L.marker(
+                [41.374706, -74.691216],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_873a3194d681e404dfb3f73850af53e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12efc9e3b1aba3c6abec78dbf95740b1 = $(`<div id="html_12efc9e3b1aba3c6abec78dbf95740b1" style="width: 100.0%; height: 100.0%;">Port Jervis</div>`)[0];
+                popup_873a3194d681e404dfb3f73850af53e6.setContent(html_12efc9e3b1aba3c6abec78dbf95740b1);
+            
+        
+
+        marker_9fb26f610e5f34fdf0b8dcda9683a06b.bindPopup(popup_873a3194d681e404dfb3f73850af53e6)
+        ;
+
+        
+    
+    
+            var marker_d933d64c1b9d5f939e19275459c14965 = L.marker(
+                [44.488112, -75.074311],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_07acd340ee1d12fd69fb3a1a7f4c7c05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4996e9ddb5d2190425c7b1a587340ad7 = $(`<div id="html_4996e9ddb5d2190425c7b1a587340ad7" style="width: 100.0%; height: 100.0%;">Potsdam Village</div>`)[0];
+                popup_07acd340ee1d12fd69fb3a1a7f4c7c05.setContent(html_4996e9ddb5d2190425c7b1a587340ad7);
+            
+        
+
+        marker_d933d64c1b9d5f939e19275459c14965.bindPopup(popup_07acd340ee1d12fd69fb3a1a7f4c7c05)
+        ;
+
+        
+    
+    
+            var marker_b099466e460e5fd2681644c65faceb52 = L.marker(
+                [41.70077, -73.88943],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_80e0fda3b024883ffa70dc1efa36adc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ea0cb4c26301383f323794c9eef8a3f = $(`<div id="html_9ea0cb4c26301383f323794c9eef8a3f" style="width: 100.0%; height: 100.0%;">Poughkeepsie Town</div>`)[0];
+                popup_80e0fda3b024883ffa70dc1efa36adc0.setContent(html_9ea0cb4c26301383f323794c9eef8a3f);
+            
+        
+
+        marker_b099466e460e5fd2681644c65faceb52.bindPopup(popup_80e0fda3b024883ffa70dc1efa36adc0)
+        ;
+
+        
+    
+    
+            var marker_042127956d7f1284a7f05f7df0b4e2fd = L.marker(
+                [43.15193, -77.61099],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_b84da83925df6c9d29a40dcaad562160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d377b09125c2626221037f39afcad092 = $(`<div id="html_d377b09125c2626221037f39afcad092" style="width: 100.0%; height: 100.0%;">Rochester</div>`)[0];
+                popup_b84da83925df6c9d29a40dcaad562160.setContent(html_d377b09125c2626221037f39afcad092);
+            
+        
+
+        marker_042127956d7f1284a7f05f7df0b4e2fd.bindPopup(popup_b84da83925df6c9d29a40dcaad562160)
+        ;
+
+        
+    
+    
+            var marker_df892e0a4fcbef8c93f2d5898d32be5b = L.marker(
+                [43.11023, -77.49459],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_8645c1cdfa7cf0505f748aa97156776a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a09782f9f19c794a812a71f3876d26e = $(`<div id="html_6a09782f9f19c794a812a71f3876d26e" style="width: 100.0%; height: 100.0%;">Rochester</div>`)[0];
+                popup_8645c1cdfa7cf0505f748aa97156776a.setContent(html_6a09782f9f19c794a812a71f3876d26e);
+            
+        
+
+        marker_df892e0a4fcbef8c93f2d5898d32be5b.bindPopup(popup_8645c1cdfa7cf0505f748aa97156776a)
+        ;
+
+        
+    
+    
+            var marker_84833700bc15d4a1302453169d9421ff = L.marker(
+                [43.213676, -75.45473],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_11eee739f7760e25c377099eae647561 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c859e064a838d20182d520fbcdf7a28 = $(`<div id="html_1c859e064a838d20182d520fbcdf7a28" style="width: 100.0%; height: 100.0%;">Rome</div>`)[0];
+                popup_11eee739f7760e25c377099eae647561.setContent(html_1c859e064a838d20182d520fbcdf7a28);
+            
+        
+
+        marker_84833700bc15d4a1302453169d9421ff.bindPopup(popup_11eee739f7760e25c377099eae647561)
+        ;
+
+        
+    
+    
+            var marker_0bcb7d0c1612153bb1998bbd2edecbfc = L.marker(
+                [43.242727, -75.434282],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_c4b544afea38104102f7cf2e1004447f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df6af2cafc79a230784179ac84e00093 = $(`<div id="html_df6af2cafc79a230784179ac84e00093" style="width: 100.0%; height: 100.0%;">Rome</div>`)[0];
+                popup_c4b544afea38104102f7cf2e1004447f.setContent(html_df6af2cafc79a230784179ac84e00093);
+            
+        
+
+        marker_0bcb7d0c1612153bb1998bbd2edecbfc.bindPopup(popup_c4b544afea38104102f7cf2e1004447f)
+        ;
+
+        
+    
+    
+            var marker_a69194f6649de46f2abef32d392e82c2 = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_a1e5eb0e67dbd0d5307288d7e3f1fcbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8e351c6a368bb3ae0821c7053f91fb8 = $(`<div id="html_c8e351c6a368bb3ae0821c7053f91fb8" style="width: 100.0%; height: 100.0%;">Rosendale Town</div>`)[0];
+                popup_a1e5eb0e67dbd0d5307288d7e3f1fcbe.setContent(html_c8e351c6a368bb3ae0821c7053f91fb8);
+            
+        
+
+        marker_a69194f6649de46f2abef32d392e82c2.bindPopup(popup_a1e5eb0e67dbd0d5307288d7e3f1fcbe)
+        ;
+
+        
+    
+    
+            var marker_81d1a7ff642df65f59b13056f6f48d5a = L.marker(
+                [42.817539, -74.043548],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_395750bb553c0d3d177e9e077abd5aa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07583a007b6936f4238a97889285e9f6 = $(`<div id="html_07583a007b6936f4238a97889285e9f6" style="width: 100.0%; height: 100.0%;">Rotterdam Town</div>`)[0];
+                popup_395750bb553c0d3d177e9e077abd5aa5.setContent(html_07583a007b6936f4238a97889285e9f6);
+            
+        
+
+        marker_81d1a7ff642df65f59b13056f6f48d5a.bindPopup(popup_395750bb553c0d3d177e9e077abd5aa5)
+        ;
+
+        
+    
+    
+            var marker_7db06b8b97d37e3971cbe03bf762c4d1 = L.marker(
+                [42.081314, -73.958374],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_ae50b7636374dfae59975c8826b64071 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fc3496351904ba5d343462773742361 = $(`<div id="html_0fc3496351904ba5d343462773742361" style="width: 100.0%; height: 100.0%;">Saugerties Town</div>`)[0];
+                popup_ae50b7636374dfae59975c8826b64071.setContent(html_0fc3496351904ba5d343462773742361);
+            
+        
+
+        marker_7db06b8b97d37e3971cbe03bf762c4d1.bindPopup(popup_ae50b7636374dfae59975c8826b64071)
+        ;
+
+        
+    
+    
+            var marker_08f8e6b3a78efb2b3758833339f54658 = L.marker(
+                [42.809704, -73.93967],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_eeaac44ebfbe9487f6dd31d5d7d71684 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7184f0a4669125b88f3524820a72410d = $(`<div id="html_7184f0a4669125b88f3524820a72410d" style="width: 100.0%; height: 100.0%;">Schenectady</div>`)[0];
+                popup_eeaac44ebfbe9487f6dd31d5d7d71684.setContent(html_7184f0a4669125b88f3524820a72410d);
+            
+        
+
+        marker_08f8e6b3a78efb2b3758833339f54658.bindPopup(popup_eeaac44ebfbe9487f6dd31d5d7d71684)
+        ;
+
+        
+    
+    
+            var marker_44beb6dc4e5abf48af19f89435cde170 = L.marker(
+                [42.814327, -73.93844],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_9eb27a1a69ac8cca060029272927da83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d043e82d8643e2f9b7e279ff0edb12b = $(`<div id="html_3d043e82d8643e2f9b7e279ff0edb12b" style="width: 100.0%; height: 100.0%;">Schenectady</div>`)[0];
+                popup_9eb27a1a69ac8cca060029272927da83.setContent(html_3d043e82d8643e2f9b7e279ff0edb12b);
+            
+        
+
+        marker_44beb6dc4e5abf48af19f89435cde170.bindPopup(popup_9eb27a1a69ac8cca060029272927da83)
+        ;
+
+        
+    
+    
+            var marker_687bfbd39cd603e4c4106ee80b671ffc = L.marker(
+                [42.716103, -73.75535],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_cf887fe93737da1f39bf8bfc3d7f5e68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_119603b4e7e3c8ac3a65b6cb6a7f5e80 = $(`<div id="html_119603b4e7e3c8ac3a65b6cb6a7f5e80" style="width: 100.0%; height: 100.0%;">Schenectady</div>`)[0];
+                popup_cf887fe93737da1f39bf8bfc3d7f5e68.setContent(html_119603b4e7e3c8ac3a65b6cb6a7f5e80);
+            
+        
+
+        marker_687bfbd39cd603e4c4106ee80b671ffc.bindPopup(popup_cf887fe93737da1f39bf8bfc3d7f5e68)
+        ;
+
+        
+    
+    
+            var marker_7d1cc276ab21efc74cbbdfb8fd43718a = L.marker(
+                [42.782294, -76.827088],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_f82e6a6c58c2e88aac12960f1582fc8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5386f1dc6a05afd91ad4c7e8be1811d = $(`<div id="html_f5386f1dc6a05afd91ad4c7e8be1811d" style="width: 100.0%; height: 100.0%;">Seneca Falls Town</div>`)[0];
+                popup_f82e6a6c58c2e88aac12960f1582fc8e.setContent(html_f5386f1dc6a05afd91ad4c7e8be1811d);
+            
+        
+
+        marker_7d1cc276ab21efc74cbbdfb8fd43718a.bindPopup(popup_f82e6a6c58c2e88aac12960f1582fc8e)
+        ;
+
+        
+    
+    
+            var marker_faaa0429f68f7e195ebc395b333f37fa = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_b9e5b8caa33e3ec2b9fe1f46965fed6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f8f204eee139049515f95f054497225 = $(`<div id="html_3f8f204eee139049515f95f054497225" style="width: 100.0%; height: 100.0%;">Shandaken Town</div>`)[0];
+                popup_b9e5b8caa33e3ec2b9fe1f46965fed6f.setContent(html_3f8f204eee139049515f95f054497225);
+            
+        
+
+        marker_faaa0429f68f7e195ebc395b333f37fa.bindPopup(popup_b9e5b8caa33e3ec2b9fe1f46965fed6f)
+        ;
+
+        
+    
+    
+            var marker_11b07e53fd8603bb446c53e420226888 = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_f8d54610eb92989ba9488489d337304b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a161eca5566660ebea700878d1ca6810 = $(`<div id="html_a161eca5566660ebea700878d1ca6810" style="width: 100.0%; height: 100.0%;">Shawangunk Town</div>`)[0];
+                popup_f8d54610eb92989ba9488489d337304b.setContent(html_a161eca5566660ebea700878d1ca6810);
+            
+        
+
+        marker_11b07e53fd8603bb446c53e420226888.bindPopup(popup_f8d54610eb92989ba9488489d337304b)
+        ;
+
+        
+    
+    
+            var marker_b935f8cc71ea640cd78b7d92ebe4264c = L.marker(
+                [43.071316, -75.59923],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_a43c0d38e72ca268790a564086e396b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_510a9f2c6e89c20b11acc0ea9c18dbf2 = $(`<div id="html_510a9f2c6e89c20b11acc0ea9c18dbf2" style="width: 100.0%; height: 100.0%;">Sherrill</div>`)[0];
+                popup_a43c0d38e72ca268790a564086e396b4.setContent(html_510a9f2c6e89c20b11acc0ea9c18dbf2);
+            
+        
+
+        marker_b935f8cc71ea640cd78b7d92ebe4264c.bindPopup(popup_a43c0d38e72ca268790a564086e396b4)
+        ;
+
+        
+    
+    
+            var marker_40a17f270253a1ea4bbc3e506c6d82cf = L.marker(
+                [40.943554, -72.692218],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_c8ce0cf518f883ddd316265c50f8e3bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4527879ca87b3f8421c8815dbc1a25d = $(`<div id="html_a4527879ca87b3f8421c8815dbc1a25d" style="width: 100.0%; height: 100.0%;">Southold Town</div>`)[0];
+                popup_c8ce0cf518f883ddd316265c50f8e3bb.setContent(html_a4527879ca87b3f8421c8815dbc1a25d);
+            
+        
+
+        marker_40a17f270253a1ea4bbc3e506c6d82cf.bindPopup(popup_c8ce0cf518f883ddd316265c50f8e3bb)
+        ;
+
+        
+    
+    
+            var marker_23eac6abb5a6946439920c7ab874439e = L.marker(
+                [41.121002, -74.04268],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_9c7aba9c4b40040bce2f264df2a97b17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86be8fd28a3c434a51976ae3512ec3ce = $(`<div id="html_86be8fd28a3c434a51976ae3512ec3ce" style="width: 100.0%; height: 100.0%;">Spring Valley Village</div>`)[0];
+                popup_9c7aba9c4b40040bce2f264df2a97b17.setContent(html_86be8fd28a3c434a51976ae3512ec3ce);
+            
+        
+
+        marker_23eac6abb5a6946439920c7ab874439e.bindPopup(popup_9c7aba9c4b40040bce2f264df2a97b17)
+        ;
+
+        
+    
+    
+            var marker_84f9bdd4c8ef3234825f9833cb4ce1af = L.marker(
+                [41.227478, -73.9944],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_5d19161a63a647271630b31c83e5fe99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efbf41c7d3e9c1617b382cd0208f2d48 = $(`<div id="html_efbf41c7d3e9c1617b382cd0208f2d48" style="width: 100.0%; height: 100.0%;">Stony Point Town</div>`)[0];
+                popup_5d19161a63a647271630b31c83e5fe99.setContent(html_efbf41c7d3e9c1617b382cd0208f2d48);
+            
+        
+
+        marker_84f9bdd4c8ef3234825f9833cb4ce1af.bindPopup(popup_5d19161a63a647271630b31c83e5fe99)
+        ;
+
+        
+    
+    
+            var marker_fa02fe600a3e3316d3f07834605b2a9a = L.marker(
+                [41.07594, -73.86303],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_43ae792540355352ade7b6b0cdb0ec73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fe3eb85e21a8667376d6be1582abb92 = $(`<div id="html_1fe3eb85e21a8667376d6be1582abb92" style="width: 100.0%; height: 100.0%;">Tarrytown Village</div>`)[0];
+                popup_43ae792540355352ade7b6b0cdb0ec73.setContent(html_1fe3eb85e21a8667376d6be1582abb92);
+            
+        
+
+        marker_fa02fe600a3e3316d3f07834605b2a9a.bindPopup(popup_43ae792540355352ade7b6b0cdb0ec73)
+        ;
+
+        
+    
+    
+            var marker_e75357f459e8d45e351fb8e9600a321d = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_41dccb79b012b1f185ec275f9b6debd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77a7d3128798aa49b4a0d7a1f27b1702 = $(`<div id="html_77a7d3128798aa49b4a0d7a1f27b1702" style="width: 100.0%; height: 100.0%;">Ulster Town</div>`)[0];
+                popup_41dccb79b012b1f185ec275f9b6debd7.setContent(html_77a7d3128798aa49b4a0d7a1f27b1702);
+            
+        
+
+        marker_e75357f459e8d45e351fb8e9600a321d.bindPopup(popup_41dccb79b012b1f185ec275f9b6debd7)
+        ;
+
+        
+    
+    
+            var marker_8c30936a5c7e2474a832ec9f2004ba28 = L.marker(
+                [43.104015, -75.23255],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_8708292679a34e7199d896f81236db07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31368afca101173cc42720b8fb2f337c = $(`<div id="html_31368afca101173cc42720b8fb2f337c" style="width: 100.0%; height: 100.0%;">Utica</div>`)[0];
+                popup_8708292679a34e7199d896f81236db07.setContent(html_31368afca101173cc42720b8fb2f337c);
+            
+        
+
+        marker_8c30936a5c7e2474a832ec9f2004ba28.bindPopup(popup_8708292679a34e7199d896f81236db07)
+        ;
+
+        
+    
+    
+            var marker_a406ba443656889c6ebd7e94130c3289 = L.marker(
+                [43.242727, -75.434282],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_e179b3cdf8828075caf1d772d8f365ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80edea7650d6f3816a4c3af765a30bf4 = $(`<div id="html_80edea7650d6f3816a4c3af765a30bf4" style="width: 100.0%; height: 100.0%;">Utica</div>`)[0];
+                popup_e179b3cdf8828075caf1d772d8f365ed.setContent(html_80edea7650d6f3816a4c3af765a30bf4);
+            
+        
+
+        marker_a406ba443656889c6ebd7e94130c3289.bindPopup(popup_e179b3cdf8828075caf1d772d8f365ed)
+        ;
+
+        
+    
+    
+            var marker_6a99614d86f34859515e0d0ef3a9ee65 = L.marker(
+                [42.161977, -75.830283],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_cc8c6c490da500478f19ee8ac9db00b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6b519896dd10b7f58ef080732f45ead = $(`<div id="html_d6b519896dd10b7f58ef080732f45ead" style="width: 100.0%; height: 100.0%;">Vestal Town</div>`)[0];
+                popup_cc8c6c490da500478f19ee8ac9db00b6.setContent(html_d6b519896dd10b7f58ef080732f45ead);
+            
+        
+
+        marker_6a99614d86f34859515e0d0ef3a9ee65.bindPopup(popup_cc8c6c490da500478f19ee8ac9db00b6)
+        ;
+
+        
+    
+    
+            var marker_4c99385f62ef9e74ac18a41a1a61519d = L.marker(
+                [41.40241, -74.306252],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_aa65114a64df0782b907bb8f53e89f04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29f060817607bb2baa1919cef1f42fb1 = $(`<div id="html_29f060817607bb2baa1919cef1f42fb1" style="width: 100.0%; height: 100.0%;">Walden Village</div>`)[0];
+                popup_aa65114a64df0782b907bb8f53e89f04.setContent(html_29f060817607bb2baa1919cef1f42fb1);
+            
+        
+
+        marker_4c99385f62ef9e74ac18a41a1a61519d.bindPopup(popup_aa65114a64df0782b907bb8f53e89f04)
+        ;
+
+        
+    
+    
+            var marker_a563a5f2610ac3fbf1795dcdb8a0cc9f = L.marker(
+                [42.782294, -76.827088],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_a7903d266f4b2ad10fdb3527e03d4232 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdbb3378e5a65ada2a5a1e753d86f9a7 = $(`<div id="html_fdbb3378e5a65ada2a5a1e753d86f9a7" style="width: 100.0%; height: 100.0%;">Waterloo Village</div>`)[0];
+                popup_a7903d266f4b2ad10fdb3527e03d4232.setContent(html_fdbb3378e5a65ada2a5a1e753d86f9a7);
+            
+        
+
+        marker_a563a5f2610ac3fbf1795dcdb8a0cc9f.bindPopup(popup_a7903d266f4b2ad10fdb3527e03d4232)
+        ;
+
+        
+    
+    
+            var marker_91289c9c0df86095fc1ec441119d636e = L.marker(
+                [43.995371, -76.053514],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_803536355480c8b4f5b4f64885e24ac5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c863dfb45451db557b14a4a23494776e = $(`<div id="html_c863dfb45451db557b14a4a23494776e" style="width: 100.0%; height: 100.0%;">Watertown</div>`)[0];
+                popup_803536355480c8b4f5b4f64885e24ac5.setContent(html_c863dfb45451db557b14a4a23494776e);
+            
+        
+
+        marker_91289c9c0df86095fc1ec441119d636e.bindPopup(popup_803536355480c8b4f5b4f64885e24ac5)
+        ;
+
+        
+    
+    
+            var marker_3aa6572ad65372a5a3ce551029c2cefb = L.marker(
+                [43.209213, -77.45785],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_b5436314a504b8c35e77f98dde778a22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2acdd26e24718c47cbb98f0917ff7e3 = $(`<div id="html_f2acdd26e24718c47cbb98f0917ff7e3" style="width: 100.0%; height: 100.0%;">Webster Town and Village</div>`)[0];
+                popup_b5436314a504b8c35e77f98dde778a22.setContent(html_f2acdd26e24718c47cbb98f0917ff7e3);
+            
+        
+
+        marker_3aa6572ad65372a5a3ce551029c2cefb.bindPopup(popup_b5436314a504b8c35e77f98dde778a22)
+        ;
+
+        
+    
+    
+            var marker_dbf9e1928ebf3324c05fbb37b440f7ab = L.marker(
+                [42.304216, -79.407595],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_d6d4459e6dc0cfeb4716ed8498f8e235 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14383c6538d7a1950e8f2f507d49599a = $(`<div id="html_14383c6538d7a1950e8f2f507d49599a" style="width: 100.0%; height: 100.0%;">Westfield Village</div>`)[0];
+                popup_d6d4459e6dc0cfeb4716ed8498f8e235.setContent(html_14383c6538d7a1950e8f2f507d49599a);
+            
+        
+
+        marker_dbf9e1928ebf3324c05fbb37b440f7ab.bindPopup(popup_d6d4459e6dc0cfeb4716ed8498f8e235)
+        ;
+
+        
+    
+    
+            var marker_69684ba7d6015e5929ef2db2633feef7 = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_82bd7b433a4b9e473e842f154a2034a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_787c0f71a7286b335ac3992310fb956c = $(`<div id="html_787c0f71a7286b335ac3992310fb956c" style="width: 100.0%; height: 100.0%;">Woodstock Town</div>`)[0];
+                popup_82bd7b433a4b9e473e842f154a2034a3.setContent(html_787c0f71a7286b335ac3992310fb956c);
+            
+        
+
+        marker_69684ba7d6015e5929ef2db2633feef7.bindPopup(popup_82bd7b433a4b9e473e842f154a2034a3)
+        ;
+
+        
+    
+    
+            var marker_198facdd91f976c723faaa4aeaef15a3 = L.marker(
+                [40.92953, -73.89687],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_8fb58b32241b240b563c252da5c08e31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4569e432e228fe233e8cef2093d563d3 = $(`<div id="html_4569e432e228fe233e8cef2093d563d3" style="width: 100.0%; height: 100.0%;">Yonkers</div>`)[0];
+                popup_8fb58b32241b240b563c252da5c08e31.setContent(html_4569e432e228fe233e8cef2093d563d3);
+            
+        
+
+        marker_198facdd91f976c723faaa4aeaef15a3.bindPopup(popup_8fb58b32241b240b563c252da5c08e31)
+        ;
+
+        
+    
+    
+            var marker_c967b254b20f11e61c2a77a58971cdd2 = L.marker(
+                [41.28067, -73.792404],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_41e2f4af812be15d6d8477a76986e973 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1810e8735cdf37e957ea82a524edca5 = $(`<div id="html_b1810e8735cdf37e957ea82a524edca5" style="width: 100.0%; height: 100.0%;">Yorktown Town</div>`)[0];
+                popup_41e2f4af812be15d6d8477a76986e973.setContent(html_b1810e8735cdf37e957ea82a524edca5);
+            
+        
+
+        marker_c967b254b20f11e61c2a77a58971cdd2.bindPopup(popup_41e2f4af812be15d6d8477a76986e973)
+        ;
+
+        
+    
+    
+            var marker_13a47818b42389c47731cdc5016a368d = L.marker(
+                [42.454323, -76.475266],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_86decc03c541c3c617c644e42db877d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b62103f35d8bb308cda23021153df0c = $(`<div id="html_6b62103f35d8bb308cda23021153df0c" style="width: 100.0%; height: 100.0%;">Cornell University</div>`)[0];
+                popup_86decc03c541c3c617c644e42db877d4.setContent(html_6b62103f35d8bb308cda23021153df0c);
+            
+        
+
+        marker_13a47818b42389c47731cdc5016a368d.bindPopup(popup_86decc03c541c3c617c644e42db877d4)
+        ;
+
+        
+    
+    
+            var marker_cd286a5f848558039adfa999ccc866e7 = L.marker(
+                [43.464475, -77.664656],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_dcf9803e3364992330fd749d4349076d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c3328c9caf08bcc96714a94209b582a = $(`<div id="html_3c3328c9caf08bcc96714a94209b582a" style="width: 100.0%; height: 100.0%;">Brockport</div>`)[0];
+                popup_dcf9803e3364992330fd749d4349076d.setContent(html_3c3328c9caf08bcc96714a94209b582a);
+            
+        
+
+        marker_cd286a5f848558039adfa999ccc866e7.bindPopup(popup_dcf9803e3364992330fd749d4349076d)
+        ;
+
+        
+    
+    
+            var marker_dc87d0770f54293609ad986114d28305 = L.marker(
+                [43.464475, -77.664656],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_579777e07b1444d5bce22abb684d199d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c3d7ba5a4dbb4da2fc568b830a5e299 = $(`<div id="html_7c3d7ba5a4dbb4da2fc568b830a5e299" style="width: 100.0%; height: 100.0%;">Brockport</div>`)[0];
+                popup_579777e07b1444d5bce22abb684d199d.setContent(html_7c3d7ba5a4dbb4da2fc568b830a5e299);
+            
+        
+
+        marker_dc87d0770f54293609ad986114d28305.bindPopup(popup_579777e07b1444d5bce22abb684d199d)
+        ;
+
+        
+    
+    
+            var marker_2f4e416edf3d2e96fce92a89b8b2e7ab = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_dcb8aa2792fd05b7323353548f96889c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81dc9863821a56a5c382b62c1b0f65aa = $(`<div id="html_81dc9863821a56a5c382b62c1b0f65aa" style="width: 100.0%; height: 100.0%;">New Paltz</div>`)[0];
+                popup_dcb8aa2792fd05b7323353548f96889c.setContent(html_81dc9863821a56a5c382b62c1b0f65aa);
+            
+        
+
+        marker_2f4e416edf3d2e96fce92a89b8b2e7ab.bindPopup(popup_dcb8aa2792fd05b7323353548f96889c)
+        ;
+
+        
+    
+    
+            var marker_db8e579192cfc220acf01da3baf1943b = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_a2e89654d27f63fb33793485adbd5979 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fd904dc59ac5cb5b671b49b73a22ad1 = $(`<div id="html_4fd904dc59ac5cb5b671b49b73a22ad1" style="width: 100.0%; height: 100.0%;">New Paltz</div>`)[0];
+                popup_a2e89654d27f63fb33793485adbd5979.setContent(html_4fd904dc59ac5cb5b671b49b73a22ad1);
+            
+        
+
+        marker_db8e579192cfc220acf01da3baf1943b.bindPopup(popup_a2e89654d27f63fb33793485adbd5979)
+        ;
+
+        
+    
+    
+            var marker_20420d686e93029cb1164a5ce6225616 = L.marker(
+                [43.461443, -76.209258],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2606540b6db7db1fbf9637c162ed427b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_661f4d5734d4f27a8632567a47c90580 = $(`<div id="html_661f4d5734d4f27a8632567a47c90580" style="width: 100.0%; height: 100.0%;">Oswego</div>`)[0];
+                popup_2606540b6db7db1fbf9637c162ed427b.setContent(html_661f4d5734d4f27a8632567a47c90580);
+            
+        
+
+        marker_20420d686e93029cb1164a5ce6225616.bindPopup(popup_2606540b6db7db1fbf9637c162ed427b)
+        ;
+
+        
+    
+    
+            var marker_04405f8097a24a659eb0344167456645 = L.marker(
+                [43.461443, -76.209258],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_15a691cf5b32da4e8a21724816367c94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b7388aabe39c19ef00a974a9b54a4c4 = $(`<div id="html_3b7388aabe39c19ef00a974a9b54a4c4" style="width: 100.0%; height: 100.0%;">Oswego</div>`)[0];
+                popup_15a691cf5b32da4e8a21724816367c94.setContent(html_3b7388aabe39c19ef00a974a9b54a4c4);
+            
+        
+
+        marker_04405f8097a24a659eb0344167456645.bindPopup(popup_15a691cf5b32da4e8a21724816367c94)
+        ;
+
+        
+    
+    
+            var marker_2046c889bdd0f22a03496063b1501ea7 = L.marker(
+                [43.461443, -76.209258],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_b552f5e13c94464138f97a39919ea804 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59f268b5aeaea2f48b8c3c8f7e1411b9 = $(`<div id="html_59f268b5aeaea2f48b8c3c8f7e1411b9" style="width: 100.0%; height: 100.0%;">Oswego</div>`)[0];
+                popup_b552f5e13c94464138f97a39919ea804.setContent(html_59f268b5aeaea2f48b8c3c8f7e1411b9);
+            
+        
+
+        marker_2046c889bdd0f22a03496063b1501ea7.bindPopup(popup_b552f5e13c94464138f97a39919ea804)
+        ;
+
+        
+    
+    
+            var marker_e28c655308265553e417143a220b73ce = L.marker(
+                [43.461443, -76.209258],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_7d2cbaf98b05c17558b968f1dd17ae98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e3cb34345da741881ceb52deec90fd3 = $(`<div id="html_1e3cb34345da741881ceb52deec90fd3" style="width: 100.0%; height: 100.0%;">Oswego</div>`)[0];
+                popup_7d2cbaf98b05c17558b968f1dd17ae98.setContent(html_1e3cb34345da741881ceb52deec90fd3);
+            
+        
+
+        marker_e28c655308265553e417143a220b73ce.bindPopup(popup_7d2cbaf98b05c17558b968f1dd17ae98)
+        ;
+
+        
+    
+    
+            var marker_20f18862111eab2da83e23f4b2a6caf1 = L.marker(
+                [42.132046, -75.914276],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_0a541e58dca160b3cc21f9995b769b6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad618d5630783655ca9873345b098af6 = $(`<div id="html_ad618d5630783655ca9873345b098af6" style="width: 100.0%; height: 100.0%;">Broome</div>`)[0];
+                popup_0a541e58dca160b3cc21f9995b769b6d.setContent(html_ad618d5630783655ca9873345b098af6);
+            
+        
+
+        marker_20f18862111eab2da83e23f4b2a6caf1.bindPopup(popup_0a541e58dca160b3cc21f9995b769b6d)
+        ;
+
+        
+    
+    
+            var marker_11d6e6614eb573a6e14728b8b2c0da01 = L.marker(
+                [42.161977, -75.830283],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2e7d9b0522702becf2a2f62b6e3f5018 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7699771fb8e761a126f7a050f6edd626 = $(`<div id="html_7699771fb8e761a126f7a050f6edd626" style="width: 100.0%; height: 100.0%;">Broome</div>`)[0];
+                popup_2e7d9b0522702becf2a2f62b6e3f5018.setContent(html_7699771fb8e761a126f7a050f6edd626);
+            
+        
+
+        marker_11d6e6614eb573a6e14728b8b2c0da01.bindPopup(popup_2e7d9b0522702becf2a2f62b6e3f5018)
+        ;
+
+        
+    
+    
+            var marker_5b0a187787c6b28bb6f0c025e9ce2d5f = L.marker(
+                [41.710106, -73.920654],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_122473068d58aeef15e3571932f760a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_658f6ff097b9a87b73f65dac147f3a8b = $(`<div id="html_658f6ff097b9a87b73f65dac147f3a8b" style="width: 100.0%; height: 100.0%;">Dutchess</div>`)[0];
+                popup_122473068d58aeef15e3571932f760a4.setContent(html_658f6ff097b9a87b73f65dac147f3a8b);
+            
+        
+
+        marker_5b0a187787c6b28bb6f0c025e9ce2d5f.bindPopup(popup_122473068d58aeef15e3571932f760a4)
+        ;
+
+        
+    
+    
+            var marker_9b5ebe1d73fb40d522fa3aaa2ce691b5 = L.marker(
+                [41.75501, -73.739951],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_c30597d6206b2d672e6f3ff035c20593 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa9b2a46ed4918df22fbde0bab06475c = $(`<div id="html_aa9b2a46ed4918df22fbde0bab06475c" style="width: 100.0%; height: 100.0%;">Dutchess</div>`)[0];
+                popup_c30597d6206b2d672e6f3ff035c20593.setContent(html_aa9b2a46ed4918df22fbde0bab06475c);
+            
+        
+
+        marker_9b5ebe1d73fb40d522fa3aaa2ce691b5.bindPopup(popup_c30597d6206b2d672e6f3ff035c20593)
+        ;
+
+        
+    
+    
+            var marker_49534ca0f21d134c3a77b1e8cd70543c = L.marker(
+                [43.995371, -76.053514],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_da132e9be624f9f1b83b14fdaf02ebc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71c79f65e9cefc50acb0e339b7628ffe = $(`<div id="html_71c79f65e9cefc50acb0e339b7628ffe" style="width: 100.0%; height: 100.0%;">Jefferson</div>`)[0];
+                popup_da132e9be624f9f1b83b14fdaf02ebc1.setContent(html_71c79f65e9cefc50acb0e339b7628ffe);
+            
+        
+
+        marker_49534ca0f21d134c3a77b1e8cd70543c.bindPopup(popup_da132e9be624f9f1b83b14fdaf02ebc1)
+        ;
+
+        
+    
+    
+            var marker_6c7cf78a3d712e278ef3fff9aea8db5d = L.marker(
+                [43.995371, -76.053514],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_71374b90f1a137b545b90b92b3ff75ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96130a1a188944d8d4e5c274918d5035 = $(`<div id="html_96130a1a188944d8d4e5c274918d5035" style="width: 100.0%; height: 100.0%;">Jefferson</div>`)[0];
+                popup_71374b90f1a137b545b90b92b3ff75ad.setContent(html_96130a1a188944d8d4e5c274918d5035);
+            
+        
+
+        marker_6c7cf78a3d712e278ef3fff9aea8db5d.bindPopup(popup_71374b90f1a137b545b90b92b3ff75ad)
+        ;
+
+        
+    
+    
+            var marker_87a84a91a27871b41f78ad782a4d7906 = L.marker(
+                [42.800175, -77.81615],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_d1899d0ee016c1e443317d1688fd61d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5dfd4558f0e3afe5f766586f680720e = $(`<div id="html_f5dfd4558f0e3afe5f766586f680720e" style="width: 100.0%; height: 100.0%;">Livingston</div>`)[0];
+                popup_d1899d0ee016c1e443317d1688fd61d4.setContent(html_f5dfd4558f0e3afe5f766586f680720e);
+            
+        
+
+        marker_87a84a91a27871b41f78ad782a4d7906.bindPopup(popup_d1899d0ee016c1e443317d1688fd61d4)
+        ;
+
+        
+    
+    
+            var marker_9bc905e2b2e75c49a3d6eeabed894095 = L.marker(
+                [42.957077, -77.34294],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_de1d0435dacb0d277a63dfbbd08535d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcf549610df32d4873cb2592c29482be = $(`<div id="html_dcf549610df32d4873cb2592c29482be" style="width: 100.0%; height: 100.0%;">Livingston</div>`)[0];
+                popup_de1d0435dacb0d277a63dfbbd08535d5.setContent(html_dcf549610df32d4873cb2592c29482be);
+            
+        
+
+        marker_9bc905e2b2e75c49a3d6eeabed894095.bindPopup(popup_de1d0435dacb0d277a63dfbbd08535d5)
+        ;
+
+        
+    
+    
+            var marker_16d2627f92bf32f954d3a905f842873a = L.marker(
+                [43.152992, -77.61453],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_03da6389edffae0f9d0bf53d93487b1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a054d5d2b40d7176786765f04b17f17 = $(`<div id="html_8a054d5d2b40d7176786765f04b17f17" style="width: 100.0%; height: 100.0%;">Monroe</div>`)[0];
+                popup_03da6389edffae0f9d0bf53d93487b1d.setContent(html_8a054d5d2b40d7176786765f04b17f17);
+            
+        
+
+        marker_16d2627f92bf32f954d3a905f842873a.bindPopup(popup_03da6389edffae0f9d0bf53d93487b1d)
+        ;
+
+        
+    
+    
+            var marker_794b7b9621f02866f75588c556e0644c = L.marker(
+                [41.32736, -74.18705],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_66c84ffcb385f67e2709cea190a81870 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7217d9d692522a5da20a9f5c18bbcbdd = $(`<div id="html_7217d9d692522a5da20a9f5c18bbcbdd" style="width: 100.0%; height: 100.0%;">Monroe</div>`)[0];
+                popup_66c84ffcb385f67e2709cea190a81870.setContent(html_7217d9d692522a5da20a9f5c18bbcbdd);
+            
+        
+
+        marker_794b7b9621f02866f75588c556e0644c.bindPopup(popup_66c84ffcb385f67e2709cea190a81870)
+        ;
+
+        
+    
+    
+            var marker_011e44f4c6488f0b0929d3dbff034d46 = L.marker(
+                [42.957077, -77.34294],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_df42c2f3937b85f1f745e8dd55c272d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_234b09317429a42f3627d706b62e024a = $(`<div id="html_234b09317429a42f3627d706b62e024a" style="width: 100.0%; height: 100.0%;">Monroe</div>`)[0];
+                popup_df42c2f3937b85f1f745e8dd55c272d4.setContent(html_234b09317429a42f3627d706b62e024a);
+            
+        
+
+        marker_011e44f4c6488f0b0929d3dbff034d46.bindPopup(popup_df42c2f3937b85f1f745e8dd55c272d4)
+        ;
+
+        
+    
+    
+            var marker_0c4b924261778dd75da83602f4d71cfa = L.marker(
+                [43.21, -78.75],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_c6fd06f1dccf07bf43196f6f98e4cf64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d7fe80955cb45e9539ff5d33e4a6faa = $(`<div id="html_8d7fe80955cb45e9539ff5d33e4a6faa" style="width: 100.0%; height: 100.0%;">Niagara</div>`)[0];
+                popup_c6fd06f1dccf07bf43196f6f98e4cf64.setContent(html_8d7fe80955cb45e9539ff5d33e4a6faa);
+            
+        
+
+        marker_0c4b924261778dd75da83602f4d71cfa.bindPopup(popup_c6fd06f1dccf07bf43196f6f98e4cf64)
+        ;
+
+        
+    
+    
+            var marker_757fad59e73a71941cda811d70a3c244 = L.marker(
+                [43.181637, -78.73824],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_6c4c9434670c434221eedb1f11cbe2c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39de115eb1688bb8410cd4797f0104d5 = $(`<div id="html_39de115eb1688bb8410cd4797f0104d5" style="width: 100.0%; height: 100.0%;">Niagara</div>`)[0];
+                popup_6c4c9434670c434221eedb1f11cbe2c0.setContent(html_39de115eb1688bb8410cd4797f0104d5);
+            
+        
+
+        marker_757fad59e73a71941cda811d70a3c244.bindPopup(popup_6c4c9434670c434221eedb1f11cbe2c0)
+        ;
+
+        
+    
+    
+            var marker_74e8a42cd32916ae65a2c31251bebb65 = L.marker(
+                [43.456731, -78.792142],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_1043a5f7c17cbaf926ecd11453215beb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d098b5dba60fa9634219f303539f1d0 = $(`<div id="html_6d098b5dba60fa9634219f303539f1d0" style="width: 100.0%; height: 100.0%;">Niagara</div>`)[0];
+                popup_1043a5f7c17cbaf926ecd11453215beb.setContent(html_6d098b5dba60fa9634219f303539f1d0);
+            
+        
+
+        marker_74e8a42cd32916ae65a2c31251bebb65.bindPopup(popup_1043a5f7c17cbaf926ecd11453215beb)
+        ;
+
+        
+    
+    
+            var marker_68f49b77598f08dc7a52ba0c1ad48aed = L.marker(
+                [43.122276, -78.98145],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_43e5c922d0147cea63c9eae5deb9ea03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ef14b684df35a54c324dd7ab0508572 = $(`<div id="html_4ef14b684df35a54c324dd7ab0508572" style="width: 100.0%; height: 100.0%;">Niagara</div>`)[0];
+                popup_43e5c922d0147cea63c9eae5deb9ea03.setContent(html_4ef14b684df35a54c324dd7ab0508572);
+            
+        
+
+        marker_68f49b77598f08dc7a52ba0c1ad48aed.bindPopup(popup_43e5c922d0147cea63c9eae5deb9ea03)
+        ;
+
+        
+    
+    
+            var marker_d0371304ba9ed9ef9f24ae577b6f776c = L.marker(
+                [43.456731, -78.792142],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_858d3f4c0ff8eb7c1cfcc4ee7ff415e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75b3fa4a0aa75858a134954bcad3529f = $(`<div id="html_75b3fa4a0aa75858a134954bcad3529f" style="width: 100.0%; height: 100.0%;">Niagara</div>`)[0];
+                popup_858d3f4c0ff8eb7c1cfcc4ee7ff415e9.setContent(html_75b3fa4a0aa75858a134954bcad3529f);
+            
+        
+
+        marker_d0371304ba9ed9ef9f24ae577b6f776c.bindPopup(popup_858d3f4c0ff8eb7c1cfcc4ee7ff415e9)
+        ;
+
+        
+    
+    
+            var marker_fb413f94ac6ee9dffa3c973faf2ba160 = L.marker(
+                [43.029232, -78.19006],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_748e12c59793fc43bbfa3aef670a64f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41e3554a96fe54e0996cb180f0333c0f = $(`<div id="html_41e3554a96fe54e0996cb180f0333c0f" style="width: 100.0%; height: 100.0%;">Niagara</div>`)[0];
+                popup_748e12c59793fc43bbfa3aef670a64f1.setContent(html_41e3554a96fe54e0996cb180f0333c0f);
+            
+        
+
+        marker_fb413f94ac6ee9dffa3c973faf2ba160.bindPopup(popup_748e12c59793fc43bbfa3aef670a64f1)
+        ;
+
+        
+    
+    
+            var marker_2f5baa643e83a1a90d5babb9bf35ab20 = L.marker(
+                [43.09671, -75.65287],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_51b250e91fed813f78186928071d9ebc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31d9172daa30ba5338e8a9eeabc47082 = $(`<div id="html_31d9172daa30ba5338e8a9eeabc47082" style="width: 100.0%; height: 100.0%;">Oneida</div>`)[0];
+                popup_51b250e91fed813f78186928071d9ebc.setContent(html_31d9172daa30ba5338e8a9eeabc47082);
+            
+        
+
+        marker_2f5baa643e83a1a90d5babb9bf35ab20.bindPopup(popup_51b250e91fed813f78186928071d9ebc)
+        ;
+
+        
+    
+    
+            var marker_54222ece23cd80cd5a5619c9646ff67c = L.marker(
+                [43.158234, -75.3763],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_fad6b28c8b2fbb90dd518ab1a02b5641 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e31b7869446c1c5a577292616923fd5 = $(`<div id="html_3e31b7869446c1c5a577292616923fd5" style="width: 100.0%; height: 100.0%;">Oneida</div>`)[0];
+                popup_fad6b28c8b2fbb90dd518ab1a02b5641.setContent(html_3e31b7869446c1c5a577292616923fd5);
+            
+        
+
+        marker_54222ece23cd80cd5a5619c9646ff67c.bindPopup(popup_fad6b28c8b2fbb90dd518ab1a02b5641)
+        ;
+
+        
+    
+    
+            var marker_82557cf8c70608cd6725d9274542dd0e = L.marker(
+                [43.242727, -75.434282],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_c6ecd41e40369ef1ed7d373034399993 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8c42d7f997a902629faf209ec848344 = $(`<div id="html_a8c42d7f997a902629faf209ec848344" style="width: 100.0%; height: 100.0%;">Oneida</div>`)[0];
+                popup_c6ecd41e40369ef1ed7d373034399993.setContent(html_a8c42d7f997a902629faf209ec848344);
+            
+        
+
+        marker_82557cf8c70608cd6725d9274542dd0e.bindPopup(popup_c6ecd41e40369ef1ed7d373034399993)
+        ;
+
+        
+    
+    
+            var marker_6bdbd485934f05a2104c63965f75df37 = L.marker(
+                [42.910026, -75.663575],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_49e667cc3c65819c07bc7258e232f86c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6db364a9674f73fb45c7943031f9239f = $(`<div id="html_6db364a9674f73fb45c7943031f9239f" style="width: 100.0%; height: 100.0%;">Oneida</div>`)[0];
+                popup_49e667cc3c65819c07bc7258e232f86c.setContent(html_6db364a9674f73fb45c7943031f9239f);
+            
+        
+
+        marker_6bdbd485934f05a2104c63965f75df37.bindPopup(popup_49e667cc3c65819c07bc7258e232f86c)
+        ;
+
+        
+    
+    
+            var marker_68f631ccfe8ae2c0d93a0cf29471536d = L.marker(
+                [43.017933, -73.872955],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_ab4413c08b9052633bb68bc532d24d9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9594139cb9b4f57d3d212c1d9dac40a9 = $(`<div id="html_9594139cb9b4f57d3d212c1d9dac40a9" style="width: 100.0%; height: 100.0%;">Saratoga</div>`)[0];
+                popup_ab4413c08b9052633bb68bc532d24d9e.setContent(html_9594139cb9b4f57d3d212c1d9dac40a9);
+            
+        
+
+        marker_68f631ccfe8ae2c0d93a0cf29471536d.bindPopup(popup_ab4413c08b9052633bb68bc532d24d9e)
+        ;
+
+        
+    
+    
+            var marker_7566513484ca344269acafdb84804c0f = L.marker(
+                [43.083195, -73.7844],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_61fef18c12731c45836dd703ac806055 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60217a6faf44661d4a8c488f2c9541d8 = $(`<div id="html_60217a6faf44661d4a8c488f2c9541d8" style="width: 100.0%; height: 100.0%;">Saratoga</div>`)[0];
+                popup_61fef18c12731c45836dd703ac806055.setContent(html_60217a6faf44661d4a8c488f2c9541d8);
+            
+        
+
+        marker_7566513484ca344269acafdb84804c0f.bindPopup(popup_61fef18c12731c45836dd703ac806055)
+        ;
+
+        
+    
+    
+            var marker_50cde2e87ee9d1c9c0b22376fc0d9631 = L.marker(
+                [43.062622, -73.7828],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_d4d535de92ee4ae555a22916d0f02d85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4056e29f0b0fb5f8cd49fa205461165c = $(`<div id="html_4056e29f0b0fb5f8cd49fa205461165c" style="width: 100.0%; height: 100.0%;">Saratoga</div>`)[0];
+                popup_d4d535de92ee4ae555a22916d0f02d85.setContent(html_4056e29f0b0fb5f8cd49fa205461165c);
+            
+        
+
+        marker_50cde2e87ee9d1c9c0b22376fc0d9631.bindPopup(popup_d4d535de92ee4ae555a22916d0f02d85)
+        ;
+
+        
+    
+    
+            var marker_624d5d43d30c2c6ca4a91089e7c47aed = L.marker(
+                [42.716103, -73.75535],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_0e88cd1d778537678c4a4307e598f1d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b541984f1c4f0c24d5975acf9f769e5 = $(`<div id="html_7b541984f1c4f0c24d5975acf9f769e5" style="width: 100.0%; height: 100.0%;">Saratoga</div>`)[0];
+                popup_0e88cd1d778537678c4a4307e598f1d1.setContent(html_7b541984f1c4f0c24d5975acf9f769e5);
+            
+        
+
+        marker_624d5d43d30c2c6ca4a91089e7c47aed.bindPopup(popup_0e88cd1d778537678c4a4307e598f1d1)
+        ;
+
+        
+    
+    
+            var marker_8f403f93bd4cc5286b63ee22c2297edd = L.marker(
+                [42.591294, -74.438172],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2477ee3573b785d979460b18be9d0cc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef744d9f2d24379cdbba43c60d354154 = $(`<div id="html_ef744d9f2d24379cdbba43c60d354154" style="width: 100.0%; height: 100.0%;">Schoharie</div>`)[0];
+                popup_2477ee3573b785d979460b18be9d0cc4.setContent(html_ef744d9f2d24379cdbba43c60d354154);
+            
+        
+
+        marker_8f403f93bd4cc5286b63ee22c2297edd.bindPopup(popup_2477ee3573b785d979460b18be9d0cc4)
+        ;
+
+        
+    
+    
+            var marker_46ba78a919234b0e02ae2868102f6e14 = L.marker(
+                [42.591294, -74.438172],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_f2d88ad8184de1af40b8b95e07c10f10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3c44e3759a6cf0b24f55ca37bcf7746 = $(`<div id="html_e3c44e3759a6cf0b24f55ca37bcf7746" style="width: 100.0%; height: 100.0%;">Schoharie</div>`)[0];
+                popup_f2d88ad8184de1af40b8b95e07c10f10.setContent(html_e3c44e3759a6cf0b24f55ca37bcf7746);
+            
+        
+
+        marker_46ba78a919234b0e02ae2868102f6e14.bindPopup(popup_f2d88ad8184de1af40b8b95e07c10f10)
+        ;
+
+        
+    
+    
+            var marker_fc6699d9c231557df8e5632b22df1eb1 = L.marker(
+                [42.678, -74.372],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_00a56f7f0c0c2c4ae390762dc6815e1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddb21c5c261e06609b814e3f68f5f4b2 = $(`<div id="html_ddb21c5c261e06609b814e3f68f5f4b2" style="width: 100.0%; height: 100.0%;">Schoharie</div>`)[0];
+                popup_00a56f7f0c0c2c4ae390762dc6815e1b.setContent(html_ddb21c5c261e06609b814e3f68f5f4b2);
+            
+        
+
+        marker_fc6699d9c231557df8e5632b22df1eb1.bindPopup(popup_00a56f7f0c0c2c4ae390762dc6815e1b)
+        ;
+
+        
+    
+    
+            var marker_2644c99dae4a1257cc0ee5043777a764 = L.marker(
+                [42.716103, -73.75535],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_46ad0c24fa05c2b9f4f6689991db3619 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eab29ee48b0cfafd9c3370bf38e01b56 = $(`<div id="html_eab29ee48b0cfafd9c3370bf38e01b56" style="width: 100.0%; height: 100.0%;">Schoharie</div>`)[0];
+                popup_46ad0c24fa05c2b9f4f6689991db3619.setContent(html_eab29ee48b0cfafd9c3370bf38e01b56);
+            
+        
+
+        marker_2644c99dae4a1257cc0ee5043777a764.bindPopup(popup_46ad0c24fa05c2b9f4f6689991db3619)
+        ;
+
+        
+    
+    
+            var marker_6f680293e8a9faf52729fb49c701ba27 = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_85f5ff83621ab767c624ee20c7e6ea14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f191ab25831f00e70040b11cc8b7ad3 = $(`<div id="html_7f191ab25831f00e70040b11cc8b7ad3" style="width: 100.0%; height: 100.0%;">Ulster</div>`)[0];
+                popup_85f5ff83621ab767c624ee20c7e6ea14.setContent(html_7f191ab25831f00e70040b11cc8b7ad3);
+            
+        
+
+        marker_6f680293e8a9faf52729fb49c701ba27.bindPopup(popup_85f5ff83621ab767c624ee20c7e6ea14)
+        ;
+
+        
+    
+    
+            var marker_a411b094cce8f4e275e7769b7bf0c240 = L.marker(
+                [41.912647, -74.01875],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_4f062088d019bbb3d4ad35c1b3777f2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fd659bd042fe4be283629ecf6fb31ea = $(`<div id="html_0fd659bd042fe4be283629ecf6fb31ea" style="width: 100.0%; height: 100.0%;">Ulster</div>`)[0];
+                popup_4f062088d019bbb3d4ad35c1b3777f2f.setContent(html_0fd659bd042fe4be283629ecf6fb31ea);
+            
+        
+
+        marker_a411b094cce8f4e275e7769b7bf0c240.bindPopup(popup_4f062088d019bbb3d4ad35c1b3777f2f)
+        ;
+
+        
+    
+    
+            var marker_253bcef63fb0b9a59d37f7c0685e9aef = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_dd15bf99c6c4a6e15b51f4ff7757b085 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3214704344e713d7f01e04be45bfb614 = $(`<div id="html_3214704344e713d7f01e04be45bfb614" style="width: 100.0%; height: 100.0%;">Ulster</div>`)[0];
+                popup_dd15bf99c6c4a6e15b51f4ff7757b085.setContent(html_3214704344e713d7f01e04be45bfb614);
+            
+        
+
+        marker_253bcef63fb0b9a59d37f7c0685e9aef.bindPopup(popup_dd15bf99c6c4a6e15b51f4ff7757b085)
+        ;
+
+        
+    
+    
+            var marker_b8b13924fc00a5e15aeb14a07040173a = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_56146067a9c4c687a9d5a376fa80a7b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4ecbbb6d811e29e1e125c3c9d7d7b48 = $(`<div id="html_e4ecbbb6d811e29e1e125c3c9d7d7b48" style="width: 100.0%; height: 100.0%;">Ulster</div>`)[0];
+                popup_56146067a9c4c687a9d5a376fa80a7b8.setContent(html_e4ecbbb6d811e29e1e125c3c9d7d7b48);
+            
+        
+
+        marker_b8b13924fc00a5e15aeb14a07040173a.bindPopup(popup_56146067a9c4c687a9d5a376fa80a7b8)
+        ;
+
+        
+    
+    
+            var marker_77f220534eceb9bcbe0db9c6777b1023 = L.marker(
+                [41.947216, -74.265458],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_60fbfd247cd5448f66e88b22005ba09e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc5fb6c746bff377d6d7922036f010ca = $(`<div id="html_cc5fb6c746bff377d6d7922036f010ca" style="width: 100.0%; height: 100.0%;">Ulster</div>`)[0];
+                popup_60fbfd247cd5448f66e88b22005ba09e.setContent(html_cc5fb6c746bff377d6d7922036f010ca);
+            
+        
+
+        marker_77f220534eceb9bcbe0db9c6777b1023.bindPopup(popup_60fbfd247cd5448f66e88b22005ba09e)
+        ;
+
+        
+    
+    
+            var marker_b087edb48d039e88970e415b81d86148 = L.marker(
+                [43.555105, -73.838139],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_27da5daae3a29cec4a2a3f274cbb721f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_373e714bd74ecb6dca819d41a255d422 = $(`<div id="html_373e714bd74ecb6dca819d41a255d422" style="width: 100.0%; height: 100.0%;">Warren</div>`)[0];
+                popup_27da5daae3a29cec4a2a3f274cbb721f.setContent(html_373e714bd74ecb6dca819d41a255d422);
+            
+        
+
+        marker_b087edb48d039e88970e415b81d86148.bindPopup(popup_27da5daae3a29cec4a2a3f274cbb721f)
+        ;
+
+        
+    
+    
+            var marker_161dbfa3cf40c301fb3bfefa8af57af2 = L.marker(
+                [42.716103, -73.75535],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_76a70d8b4a1fdd93739daf7be52e79ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87819265238d522bad88e5135d68f376 = $(`<div id="html_87819265238d522bad88e5135d68f376" style="width: 100.0%; height: 100.0%;">Warren</div>`)[0];
+                popup_76a70d8b4a1fdd93739daf7be52e79ca.setContent(html_87819265238d522bad88e5135d68f376);
+            
+        
+
+        marker_161dbfa3cf40c301fb3bfefa8af57af2.bindPopup(popup_76a70d8b4a1fdd93739daf7be52e79ca)
+        ;
+
+        
+    
+    
+            var marker_b825b2d1739203d286bf9f5837ebcf68 = L.marker(
+                [42.66487, -77.05609],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_69e3fca2e3191839ef44782c51e35afa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a9de9f49f2e00cfd2b0788a84b5c39a = $(`<div id="html_1a9de9f49f2e00cfd2b0788a84b5c39a" style="width: 100.0%; height: 100.0%;">Yates</div>`)[0];
+                popup_69e3fca2e3191839ef44782c51e35afa.setContent(html_1a9de9f49f2e00cfd2b0788a84b5c39a);
+            
+        
+
+        marker_b825b2d1739203d286bf9f5837ebcf68.bindPopup(popup_69e3fca2e3191839ef44782c51e35afa)
+        ;
+
+        
+    
+    
+            var marker_b88f6d17cd61d25f79ebfc8f0f096d60 = L.marker(
+                [42.957077, -77.34294],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_da396ef07170aa760c57770fb8e25f0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ee15780ddda1a7954aba40e1ab2c2c0 = $(`<div id="html_4ee15780ddda1a7954aba40e1ab2c2c0" style="width: 100.0%; height: 100.0%;">Yates</div>`)[0];
+                popup_da396ef07170aa760c57770fb8e25f0d.setContent(html_4ee15780ddda1a7954aba40e1ab2c2c0);
+            
+        
+
+        marker_b88f6d17cd61d25f79ebfc8f0f096d60.bindPopup(popup_da396ef07170aa760c57770fb8e25f0d)
+        ;
+
+        
+    
+    
+            var marker_a4106cd9dc172a59efd30ad1e73d2458 = L.marker(
+                [42.25149, -78.80058],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_a5af53212916c0c780a6e68ce7d347fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_540835754f6a36361581fc7084a4cb8e = $(`<div id="html_540835754f6a36361581fc7084a4cb8e" style="width: 100.0%; height: 100.0%;">Cattaraugus</div>`)[0];
+                popup_a5af53212916c0c780a6e68ce7d347fb.setContent(html_540835754f6a36361581fc7084a4cb8e);
+            
+        
+
+        marker_a4106cd9dc172a59efd30ad1e73d2458.bindPopup(popup_a5af53212916c0c780a6e68ce7d347fb)
+        ;
+
+        
+    
+    
+            var marker_d41e3cc2066a182cbd66a2ea8befff52 = L.marker(
+                [42.329826, -78.86864],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_404ff198d1ab67d115912010d466074c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1af6bb9bb51f1c56ea4700ac7bddf31d = $(`<div id="html_1af6bb9bb51f1c56ea4700ac7bddf31d" style="width: 100.0%; height: 100.0%;">Cattaraugus</div>`)[0];
+                popup_404ff198d1ab67d115912010d466074c.setContent(html_1af6bb9bb51f1c56ea4700ac7bddf31d);
+            
+        
+
+        marker_d41e3cc2066a182cbd66a2ea8befff52.bindPopup(popup_404ff198d1ab67d115912010d466074c)
+        ;
+
+        
+    
+    
+            var marker_fb3af381b77fee6b4cff34cde9bcfb76 = L.marker(
+                [43.029232, -78.19006],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_58be77d0929b0054e6b089d4699c58ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f72032d75ed0fbbd17faf1b93e24e2ae = $(`<div id="html_f72032d75ed0fbbd17faf1b93e24e2ae" style="width: 100.0%; height: 100.0%;">Cattaraugus</div>`)[0];
+                popup_58be77d0929b0054e6b089d4699c58ab.setContent(html_f72032d75ed0fbbd17faf1b93e24e2ae);
+            
+        
+
+        marker_fb3af381b77fee6b4cff34cde9bcfb76.bindPopup(popup_58be77d0929b0054e6b089d4699c58ab)
+        ;
+
+        
+    
+    
+            var marker_ef041498755ad108f952aa8a5cdc8ed7 = L.marker(
+                [42.977413, -76.54245],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_c148405ee23c9a7a94a3e2a5bb440935 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53ed31dbacdfe837d224ce15e1e79440 = $(`<div id="html_53ed31dbacdfe837d224ce15e1e79440" style="width: 100.0%; height: 100.0%;">Cayuga</div>`)[0];
+                popup_c148405ee23c9a7a94a3e2a5bb440935.setContent(html_53ed31dbacdfe837d224ce15e1e79440);
+            
+        
+
+        marker_ef041498755ad108f952aa8a5cdc8ed7.bindPopup(popup_c148405ee23c9a7a94a3e2a5bb440935)
+        ;
+
+        
+    
+    
+            var marker_e52c79ed02701ee37ff16bf12b7129b8 = L.marker(
+                [42.469223, -76.47913],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_b4b2edcdc5aac309405a27781c4d8184 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5af7378f16f8ce72284a9df6a9c3e819 = $(`<div id="html_5af7378f16f8ce72284a9df6a9c3e819" style="width: 100.0%; height: 100.0%;">Cayuga</div>`)[0];
+                popup_b4b2edcdc5aac309405a27781c4d8184.setContent(html_5af7378f16f8ce72284a9df6a9c3e819);
+            
+        
+
+        marker_e52c79ed02701ee37ff16bf12b7129b8.bindPopup(popup_b4b2edcdc5aac309405a27781c4d8184)
+        ;
+
+        
+    
+    
+            var marker_7939303436cbe7571833c7d43505019e = L.marker(
+                [43.008546, -76.574587],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2d6b3ebba768364eba986febbcd11ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3af77690866c29723a85c935f88b3e80 = $(`<div id="html_3af77690866c29723a85c935f88b3e80" style="width: 100.0%; height: 100.0%;">Cayuga</div>`)[0];
+                popup_2d6b3ebba768364eba986febbcd11ae7.setContent(html_3af77690866c29723a85c935f88b3e80);
+            
+        
+
+        marker_7939303436cbe7571833c7d43505019e.bindPopup(popup_2d6b3ebba768364eba986febbcd11ae7)
+        ;
+
+        
+    
+    
+            var marker_0fbca48bdf6ab5a76411b32e901b265b = L.marker(
+                [42.254875, -79.503944],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_bca77cf2c752acf350f7be7d97fa361e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9aa0a4b3885123f9d70c6054606fd46 = $(`<div id="html_b9aa0a4b3885123f9d70c6054606fd46" style="width: 100.0%; height: 100.0%;">Chautauqua</div>`)[0];
+                popup_bca77cf2c752acf350f7be7d97fa361e.setContent(html_b9aa0a4b3885123f9d70c6054606fd46);
+            
+        
+
+        marker_0fbca48bdf6ab5a76411b32e901b265b.bindPopup(popup_bca77cf2c752acf350f7be7d97fa361e)
+        ;
+
+        
+    
+    
+            var marker_062e846e14494c91e4d7c5d7abecf89b = L.marker(
+                [43.029232, -78.19006],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_a8a3c13588374c782f69aa41061a95c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b4796b8be8a5698f9a9f97b1dc81f83 = $(`<div id="html_8b4796b8be8a5698f9a9f97b1dc81f83" style="width: 100.0%; height: 100.0%;">Chautauqua</div>`)[0];
+                popup_a8a3c13588374c782f69aa41061a95c6.setContent(html_8b4796b8be8a5698f9a9f97b1dc81f83);
+            
+        
+
+        marker_062e846e14494c91e4d7c5d7abecf89b.bindPopup(popup_a8a3c13588374c782f69aa41061a95c6)
+        ;
+
+        
+    
+    
+            var marker_762f525abcafebe2911573f07bc4240e = L.marker(
+                [43.012383, -78.2021],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_7d7728758f5158c5c21c4eec6ade052c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b450536ebc856b4c9d33c692edf17b = $(`<div id="html_03b450536ebc856b4c9d33c692edf17b" style="width: 100.0%; height: 100.0%;">Genesee</div>`)[0];
+                popup_7d7728758f5158c5c21c4eec6ade052c.setContent(html_03b450536ebc856b4c9d33c692edf17b);
+            
+        
+
+        marker_762f525abcafebe2911573f07bc4240e.bindPopup(popup_7d7728758f5158c5c21c4eec6ade052c)
+        ;
+
+        
+    
+    
+            var marker_526eb91ae2448a298eb500af6f56ceeb = L.marker(
+                [42.57181, -78.05198],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_eda0d3265a0cc65ec6413e1b21a5b56c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80ca50123272d289aa104f4fc7fb8996 = $(`<div id="html_80ca50123272d289aa104f4fc7fb8996" style="width: 100.0%; height: 100.0%;">Genesee</div>`)[0];
+                popup_eda0d3265a0cc65ec6413e1b21a5b56c.setContent(html_80ca50123272d289aa104f4fc7fb8996);
+            
+        
+
+        marker_526eb91ae2448a298eb500af6f56ceeb.bindPopup(popup_eda0d3265a0cc65ec6413e1b21a5b56c)
+        ;
+
+        
+    
+    
+            var marker_e0deff6f042fc89fe00ff1bfc8334ea8 = L.marker(
+                [43.029232, -78.19007],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_42ed8167bd33cd4adc8f8a992fb75e1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dfe11a66a8276fd5bb05c7ded7932a4 = $(`<div id="html_4dfe11a66a8276fd5bb05c7ded7932a4" style="width: 100.0%; height: 100.0%;">Genesee</div>`)[0];
+                popup_42ed8167bd33cd4adc8f8a992fb75e1f.setContent(html_4dfe11a66a8276fd5bb05c7ded7932a4);
+            
+        
+
+        marker_e0deff6f042fc89fe00ff1bfc8334ea8.bindPopup(popup_42ed8167bd33cd4adc8f8a992fb75e1f)
+        ;
+
+        
+    
+    
+            var marker_ef4e27a9e218ddd4f2fdbb54438646b0 = L.marker(
+                [43.782681, -75.44414],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_77799a42f2ced2d9d8ae68f0874fa90a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7491de2d0370eb32533412884eaea1a = $(`<div id="html_b7491de2d0370eb32533412884eaea1a" style="width: 100.0%; height: 100.0%;">Lewis</div>`)[0];
+                popup_77799a42f2ced2d9d8ae68f0874fa90a.setContent(html_b7491de2d0370eb32533412884eaea1a);
+            
+        
+
+        marker_ef4e27a9e218ddd4f2fdbb54438646b0.bindPopup(popup_77799a42f2ced2d9d8ae68f0874fa90a)
+        ;
+
+        
+    
+    
+            var marker_abea4cdd66aca619296add4706da21ab = L.marker(
+                [43.17389, -79.04445],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_7d81e6820310fc786f6ae262248f5196 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9812d1c8a26a0e53d10d99287fa79f17 = $(`<div id="html_9812d1c8a26a0e53d10d99287fa79f17" style="width: 100.0%; height: 100.0%;">Lewis</div>`)[0];
+                popup_7d81e6820310fc786f6ae262248f5196.setContent(html_9812d1c8a26a0e53d10d99287fa79f17);
+            
+        
+
+        marker_abea4cdd66aca619296add4706da21ab.bindPopup(popup_7d81e6820310fc786f6ae262248f5196)
+        ;
+
+        
+    
+    
+            var marker_dedbb37e8d5f9c68fd5a0b1ac90259ef = L.marker(
+                [41.15277, -73.745912],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_441f808efaaf647335aae0fcf0b5599b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5add79c269271e36c90d74664181f33 = $(`<div id="html_b5add79c269271e36c90d74664181f33" style="width: 100.0%; height: 100.0%;">Lewis</div>`)[0];
+                popup_441f808efaaf647335aae0fcf0b5599b.setContent(html_b5add79c269271e36c90d74664181f33);
+            
+        
+
+        marker_dedbb37e8d5f9c68fd5a0b1ac90259ef.bindPopup(popup_441f808efaaf647335aae0fcf0b5599b)
+        ;
+
+        
+    
+    
+            var marker_61cdbce101151262333e631f5ea1a354 = L.marker(
+                [43.782681, -75.44414],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_7ef94139e626b29c93e69912e2c93a06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_576c38869eb01bba338d331b7ba4b110 = $(`<div id="html_576c38869eb01bba338d331b7ba4b110" style="width: 100.0%; height: 100.0%;">Lewis</div>`)[0];
+                popup_7ef94139e626b29c93e69912e2c93a06.setContent(html_576c38869eb01bba338d331b7ba4b110);
+            
+        
+
+        marker_61cdbce101151262333e631f5ea1a354.bindPopup(popup_7ef94139e626b29c93e69912e2c93a06)
+        ;
+
+        
+    
+    
+            var marker_f9b13b71424df21b3d745a82fada782d = L.marker(
+                [42.900891, -74.435357],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2026b26a6e8dae69323867055456abcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cb0e58bd267cdc1d3096e520a8f1867 = $(`<div id="html_5cb0e58bd267cdc1d3096e520a8f1867" style="width: 100.0%; height: 100.0%;">Montgomery</div>`)[0];
+                popup_2026b26a6e8dae69323867055456abcd.setContent(html_5cb0e58bd267cdc1d3096e520a8f1867);
+            
+        
+
+        marker_f9b13b71424df21b3d745a82fada782d.bindPopup(popup_2026b26a6e8dae69323867055456abcd)
+        ;
+
+        
+    
+    
+            var marker_5a0ed5970eda28d76e43cebcb1aefa0d = L.marker(
+                [41.40241, -74.306252],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_df6e26f9d7380987ecf14fb0199318c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f760a0bfe60d8b511fa899cdfa81445 = $(`<div id="html_9f760a0bfe60d8b511fa899cdfa81445" style="width: 100.0%; height: 100.0%;">Montgomery</div>`)[0];
+                popup_df6e26f9d7380987ecf14fb0199318c4.setContent(html_9f760a0bfe60d8b511fa899cdfa81445);
+            
+        
+
+        marker_5a0ed5970eda28d76e43cebcb1aefa0d.bindPopup(popup_df6e26f9d7380987ecf14fb0199318c4)
+        ;
+
+        
+    
+    
+            var marker_5a4bea64dfc68327635b52a78d0f3490 = L.marker(
+                [41.52123, -74.19974],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2fc8c2007b273733938397cc30c96b3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddfc338e636713ae8548e3314a38c9a5 = $(`<div id="html_ddfc338e636713ae8548e3314a38c9a5" style="width: 100.0%; height: 100.0%;">Montgomery</div>`)[0];
+                popup_2fc8c2007b273733938397cc30c96b3f.setContent(html_ddfc338e636713ae8548e3314a38c9a5);
+            
+        
+
+        marker_5a4bea64dfc68327635b52a78d0f3490.bindPopup(popup_2fc8c2007b273733938397cc30c96b3f)
+        ;
+
+        
+    
+    
+            var marker_bf8136afba5441f2b2deb86d99c29c2b = L.marker(
+                [42.716103, -73.75535],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_7f7c44a91d0be9ecca7bfef328d58f44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3442655344938463d8ac7f46f4740e22 = $(`<div id="html_3442655344938463d8ac7f46f4740e22" style="width: 100.0%; height: 100.0%;">Montgomery</div>`)[0];
+                popup_7f7c44a91d0be9ecca7bfef328d58f44.setContent(html_3442655344938463d8ac7f46f4740e22);
+            
+        
+
+        marker_bf8136afba5441f2b2deb86d99c29c2b.bindPopup(popup_7f7c44a91d0be9ecca7bfef328d58f44)
+        ;
+
+        
+    
+    
+            var marker_cd3b3447c681c75a155c1bd324449c5e = L.marker(
+                [42.597073, -74.933784],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_43df5597cfaa36989ecd894e97859212 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75d57a9e8eafa0f0f1d0fba8221df17b = $(`<div id="html_75d57a9e8eafa0f0f1d0fba8221df17b" style="width: 100.0%; height: 100.0%;">Otsego</div>`)[0];
+                popup_43df5597cfaa36989ecd894e97859212.setContent(html_75d57a9e8eafa0f0f1d0fba8221df17b);
+            
+        
+
+        marker_cd3b3447c681c75a155c1bd324449c5e.bindPopup(popup_43df5597cfaa36989ecd894e97859212)
+        ;
+
+        
+    
+    
+            var marker_8051931e483190c7af7b6e0e1b0576c2 = L.marker(
+                [42.629776, -75.028841],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_78d1f4b8b62d756bbaa3da9257a80e24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b657e64fae5957b0ddd4c2beec524bc = $(`<div id="html_6b657e64fae5957b0ddd4c2beec524bc" style="width: 100.0%; height: 100.0%;">Otsego</div>`)[0];
+                popup_78d1f4b8b62d756bbaa3da9257a80e24.setContent(html_6b657e64fae5957b0ddd4c2beec524bc);
+            
+        
+
+        marker_8051931e483190c7af7b6e0e1b0576c2.bindPopup(popup_78d1f4b8b62d756bbaa3da9257a80e24)
+        ;
+
+        
+    
+    
+            var marker_51d065370b4a263cdd8619b80e76eaf3 = L.marker(
+                [42.376373, -76.87096],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_1b288f583113f116fe7e17014d7ab472 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2386799cfda6e1897fa841f3c2d152c = $(`<div id="html_a2386799cfda6e1897fa841f3c2d152c" style="width: 100.0%; height: 100.0%;">Schuyler</div>`)[0];
+                popup_1b288f583113f116fe7e17014d7ab472.setContent(html_a2386799cfda6e1897fa841f3c2d152c);
+            
+        
+
+        marker_51d065370b4a263cdd8619b80e76eaf3.bindPopup(popup_1b288f583113f116fe7e17014d7ab472)
+        ;
+
+        
+    
+    
+            var marker_736a28da12a090bbbd5a31ab14053e0b = L.marker(
+                [42.957077, -77.34294],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_5128c659c9c6a22ea6071e5156b6e7b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ab37cb0e2f12a8591ba7da075b1585b = $(`<div id="html_1ab37cb0e2f12a8591ba7da075b1585b" style="width: 100.0%; height: 100.0%;">Schuyler</div>`)[0];
+                popup_5128c659c9c6a22ea6071e5156b6e7b1.setContent(html_1ab37cb0e2f12a8591ba7da075b1585b);
+            
+        
+
+        marker_736a28da12a090bbbd5a31ab14053e0b.bindPopup(popup_5128c659c9c6a22ea6071e5156b6e7b1)
+        ;
+
+        
+    
+    
+            var marker_b85c54284a2d27699741184c9d7c7b64 = L.marker(
+                [42.832394, -78.753716],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_4f9ea79f823347cca9deb4abf64efa71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd9e9a8b7d81483f3c17ca72c0fae65e = $(`<div id="html_dd9e9a8b7d81483f3c17ca72c0fae65e" style="width: 100.0%; height: 100.0%;">Seneca</div>`)[0];
+                popup_4f9ea79f823347cca9deb4abf64efa71.setContent(html_dd9e9a8b7d81483f3c17ca72c0fae65e);
+            
+        
+
+        marker_b85c54284a2d27699741184c9d7c7b64.bindPopup(popup_4f9ea79f823347cca9deb4abf64efa71)
+        ;
+
+        
+    
+    
+            var marker_0ac743692b3b3100a3af1b04df877aa5 = L.marker(
+                [42.782294, -76.827088],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_a422fcfea95e9f745516c9c1135017a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62b37b75092ac5fcbf3b8fb9eb9eed23 = $(`<div id="html_62b37b75092ac5fcbf3b8fb9eb9eed23" style="width: 100.0%; height: 100.0%;">Seneca</div>`)[0];
+                popup_a422fcfea95e9f745516c9c1135017a2.setContent(html_62b37b75092ac5fcbf3b8fb9eb9eed23);
+            
+        
+
+        marker_0ac743692b3b3100a3af1b04df877aa5.bindPopup(popup_a422fcfea95e9f745516c9c1135017a2)
+        ;
+
+        
+    
+    
+            var marker_80041f451a60b1ef3eb96c6031b00052 = L.marker(
+                [42.782294, -76.827088],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_ca6e97505a7526d1ee4beb5195ff04fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50daff9fbac7c12c25a08420e554e173 = $(`<div id="html_50daff9fbac7c12c25a08420e554e173" style="width: 100.0%; height: 100.0%;">Seneca</div>`)[0];
+                popup_ca6e97505a7526d1ee4beb5195ff04fe.setContent(html_50daff9fbac7c12c25a08420e554e173);
+            
+        
+
+        marker_80041f451a60b1ef3eb96c6031b00052.bindPopup(popup_ca6e97505a7526d1ee4beb5195ff04fe)
+        ;
+
+        
+    
+    
+            var marker_fb3ad725afb238613774beb8ff6039b7 = L.marker(
+                [42.957077, -77.34294],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_9e0323cc460ffae54aa82d9975a06b69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec8ac7d97e5e5e5439241059f0ac4d4a = $(`<div id="html_ec8ac7d97e5e5e5439241059f0ac4d4a" style="width: 100.0%; height: 100.0%;">Seneca</div>`)[0];
+                popup_9e0323cc460ffae54aa82d9975a06b69.setContent(html_ec8ac7d97e5e5e5439241059f0ac4d4a);
+            
+        
+
+        marker_fb3ad725afb238613774beb8ff6039b7.bindPopup(popup_9e0323cc460ffae54aa82d9975a06b69)
+        ;
+
+        
+    
+    
+            var marker_10aed8921d00e41a14f97150588cfa8f = L.marker(
+                [42.34924, -77.2951],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_7a80acf885be703639732c362b09bc6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72e842815e16313c397f5e260a812b73 = $(`<div id="html_72e842815e16313c397f5e260a812b73" style="width: 100.0%; height: 100.0%;">Steuben</div>`)[0];
+                popup_7a80acf885be703639732c362b09bc6a.setContent(html_72e842815e16313c397f5e260a812b73);
+            
+        
+
+        marker_10aed8921d00e41a14f97150588cfa8f.bindPopup(popup_7a80acf885be703639732c362b09bc6a)
+        ;
+
+        
+    
+    
+            var marker_d015182dc3827e5f3fa50c79569aca9b = L.marker(
+                [42.957077, -77.34294],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_0c43e6f6d6eb8b8c103a0e7706ce24df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a172fea0e5e1ddc3ff3ebdb77e2dbfae = $(`<div id="html_a172fea0e5e1ddc3ff3ebdb77e2dbfae" style="width: 100.0%; height: 100.0%;">Steuben</div>`)[0];
+                popup_0c43e6f6d6eb8b8c103a0e7706ce24df.setContent(html_a172fea0e5e1ddc3ff3ebdb77e2dbfae);
+            
+        
+
+        marker_d015182dc3827e5f3fa50c79569aca9b.bindPopup(popup_0c43e6f6d6eb8b8c103a0e7706ce24df)
+        ;
+
+        
+    
+    
+            var marker_f69b51d761201fe74dedb7cb2aed0a26 = L.marker(
+                [44.488112, -75.074311],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_7694d2457ddc4f1101e21d820c98e070 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7842c37e522bf24e49940d02105194a = $(`<div id="html_c7842c37e522bf24e49940d02105194a" style="width: 100.0%; height: 100.0%;">St. Lawrence</div>`)[0];
+                popup_7694d2457ddc4f1101e21d820c98e070.setContent(html_c7842c37e522bf24e49940d02105194a);
+            
+        
+
+        marker_f69b51d761201fe74dedb7cb2aed0a26.bindPopup(popup_7694d2457ddc4f1101e21d820c98e070)
+        ;
+
+        
+    
+    
+            var marker_7d90c26342ba2997db4eebaca738659f = L.marker(
+                [44.488112, -75.074311],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_3cab5777be79b70be613d5a1b906bec7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3947687eee34062a329dc212612fdda7 = $(`<div id="html_3947687eee34062a329dc212612fdda7" style="width: 100.0%; height: 100.0%;">St. Lawrence</div>`)[0];
+                popup_3cab5777be79b70be613d5a1b906bec7.setContent(html_3947687eee34062a329dc212612fdda7);
+            
+        
+
+        marker_7d90c26342ba2997db4eebaca738659f.bindPopup(popup_3cab5777be79b70be613d5a1b906bec7)
+        ;
+
+        
+    
+    
+            var marker_ac36dc7d1ced660290c67c347c234ff0 = L.marker(
+                [42.743763, -78.1326],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_4e487c0ff238ee4654c8d7b96d89ce4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc402a2271a1411bd86f09c71b945186 = $(`<div id="html_dc402a2271a1411bd86f09c71b945186" style="width: 100.0%; height: 100.0%;">Wyoming</div>`)[0];
+                popup_4e487c0ff238ee4654c8d7b96d89ce4e.setContent(html_dc402a2271a1411bd86f09c71b945186);
+            
+        
+
+        marker_ac36dc7d1ced660290c67c347c234ff0.bindPopup(popup_4e487c0ff238ee4654c8d7b96d89ce4e)
+        ;
+
+        
+    
+    
+            var marker_18541207ba8d779a05926c5ba4072527 = L.marker(
+                [43.029232, -78.19006],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_ef9e1c7991f2cfe051d97148ce33b0bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1ee80a850fc8ef71f433a3e20c33a29 = $(`<div id="html_c1ee80a850fc8ef71f433a3e20c33a29" style="width: 100.0%; height: 100.0%;">Wyoming</div>`)[0];
+                popup_ef9e1c7991f2cfe051d97148ce33b0bd.setContent(html_c1ee80a850fc8ef71f433a3e20c33a29);
+            
+        
+
+        marker_18541207ba8d779a05926c5ba4072527.bindPopup(popup_ef9e1c7991f2cfe051d97148ce33b0bd)
+        ;
+
+        
+    
+    
+            var marker_633a0884f2d4f630f7306ee2855979c3 = L.marker(
+                [42.910026, -75.663575],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_bbc5ce7c32e5ff6c35dd1a647c13bb0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0a69985d48121d5577ab18cf15f14dd = $(`<div id="html_e0a69985d48121d5577ab18cf15f14dd" style="width: 100.0%; height: 100.0%;">Oneida Indian Nation</div>`)[0];
+                popup_bbc5ce7c32e5ff6c35dd1a647c13bb0b.setContent(html_e0a69985d48121d5577ab18cf15f14dd);
+            
+        
+
+        marker_633a0884f2d4f630f7306ee2855979c3.bindPopup(popup_bbc5ce7c32e5ff6c35dd1a647c13bb0b)
+        ;
+
+        
+    
+    
+            var marker_35ce4bad1df6e61315eeabcc0a0763b6 = L.marker(
+                [44.594376, -74.31067],
+                {}
+            ).addTo(marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c);
+        
+    
+        var popup_2907da247b86ec5989c95bb1013e971a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1719a20c4ad80ccf507da6ea4ab0a76 = $(`<div id="html_e1719a20c4ad80ccf507da6ea4ab0a76" style="width: 100.0%; height: 100.0%;">St. Regis Tribal</div>`)[0];
+                popup_2907da247b86ec5989c95bb1013e971a.setContent(html_e1719a20c4ad80ccf507da6ea4ab0a76);
+            
+        
+
+        marker_35ce4bad1df6e61315eeabcc0a0763b6.bindPopup(popup_2907da247b86ec5989c95bb1013e971a)
+        ;
+
+        
+    
+    
+            marker_cluster_8fdc749e0947f5d630ae3fbc1f3f381c.addTo(map_93e56ee28ba58dfdfc3e1e3f6aa8236d);
+        
+</script>
+</html>
