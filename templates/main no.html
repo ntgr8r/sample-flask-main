@@ -1,0 +1,59 @@
+<!-- new main.html
+ 2024 08 02
+
+-->
+
+<body>
+    <div id="menu-container"></div>
+
+
+
+    <div class="state-selection">
+        <form>
+            <label for="stateSelect">Select a state to analyse:</label>
+            <select id="stateSelect" name="state">
+                <!-- Add more options based on the actual state data files -->
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+    
+    <footer>
+        <div id="pwaInstallPrompt" style="display: block; background-color: #f8f9fa; padding: 20px; text-align: center; border-top: 1px solid #e9ecef;">
+            <p>Enhance your experience! <strong>Add our app to your home screen</strong> for faster access and additional features.</p>
+            <button id="installBtn" style="padding: 10px 15px; font-size: 16px; color: white; background-color: #007bff; border: none; border-radius: 5px; cursor: pointer;">Install App</button>
+        </div>
+    </footer>
+
+    <script>
+        let deferredPrompt;
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            // Prevent the mini-infobar from appearing on mobile
+            e.preventDefault();
+            // Stash the event so it can be triggered later.
+            deferredPrompt = e;
+            // Update UI to show the install button
+            document.getElementById('pwaInstallPrompt').style.display = 'block';
+        });
+
+        document.getElementById('installBtn').addEventListener('click', async () => {
+            if (!deferredPrompt) return;
+            // Show the install prompt
+            deferredPrompt.prompt();
+            // Wait for the user to respond to the prompt
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') {
+                console.log('User accepted the install prompt');
+            } else {
+                console.log('User dismissed the install prompt');
+            }
+            deferredPrompt = null;
+            document.getElementById('pwaInstallPrompt').style.display = 'none';
+        });
+    </script>
+
+</body>
+</html>

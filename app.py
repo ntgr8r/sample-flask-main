@@ -15,8 +15,13 @@ def plotzipboundaries():
     return render_template('plotzipboundaries.html')
 
 @app.route('/new_york_crime_map_agencies_all_crimes_corrected')
-def new_york_crime_map_agencies_all_crimes_corrected():
+def select-state():
     return render_template('new_york_crime_map_agencies_all_crimes_corrected.html')
+
+@app.route('/select-state')
+def new_york_crime_map_agencies_all_crimes_corrected():
+    return render_template('select-state.html')
+
 
 @app.route('/ny_state_troopers_presentation')
 def ny_state_troopers_presentation():
